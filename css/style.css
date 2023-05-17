@@ -9,18 +9,6 @@
 
 }
 
-/*
-.navigation-menu ul {
-    display: flex;
-    justify-content: space-around;
-
-}
-
-.navigation-menu ul li {
-    padding: 20px;
-
-} 
-*/
 
 
 .about-us {
@@ -37,15 +25,6 @@
 
 }
 
-.div-menu {
-    background-color: #84533E;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    font-style: 'Chivo Mono', monospace;
-    font-weight: bold;
-
-}
 
 .div-products {
     mix-blend-mode: multiply;
@@ -53,34 +32,6 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-
-}
-
-.btn-menu {
-    display: flex;
-    align-items:center;
-    font-family: 'Chivo Mono', monospace;
-    transition: background-color 0.25s;
-    font-size: 20px;
-
-}
-
-.btn-menu>a {
-    margin:3px;
-    color: rgb(255, 255, 255);
-    margin-left: 5px;
-
-}
-
-.btn-menu>i {
-    margin:3px;
-    color: rgb(255, 255, 255);
-   
-}
-
-.btn-menu:hover {
-    background-color: #bf8a82;
-    cursor: pointer;
 
 }
 
@@ -107,11 +58,6 @@
     font-size: 16px;
     color: rgb(254, 254, 254);
     background-color: #84533E
-
-}
-
-.container-titles {
-    background-color: #84533E;
 
 }
 
