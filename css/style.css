@@ -1,13 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@100;200;600;700&display=swap');
-
-
-.home {
-    color: white;
-    background-color: #543737;
-    font-family: 'Chivo Mono', monospace;
-    font-weight: 100;
-
-}
 
 
 
@@ -50,20 +40,6 @@
     object-fit: cover;
     object-position: 30%;
     
-}
-
-.catalog-footer {
-    text-align: start;
-    font-family: 'Chivo Mono', monospace;
-    font-size: 16px;
-    color: rgb(254, 254, 254);
-    background-color: #84533E
-
-}
-
-.adress-style {
-    margin: 25px;
-
 }
 
 /*.white-remove { 

@@ -1,44 +1,18 @@
 
-.div-menu {
-    background-color: #84533E;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    font-style: 'Chivo Mono', monospace;
-    font-weight: bold;
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@100;200;600;700&display=swap');
 
-}
 
-.btn-menu {
-    display: flex;
-    align-items:center;
+body {
+    color: white;
+    background-color: #543737;
     font-family: 'Chivo Mono', monospace;
-    transition: background-color 0.25s;
-    font-size: 20px;
+    font-weight: 100;
 
 }
-
-.btn-menu>a {
-    margin:3px;
-    color: rgb(255, 255, 255);
-    margin-left: 5px;
-
-}
-
-.btn-menu>i {
-    margin:3px;
-    color: rgb(255, 255, 255);
-   
-}
-
-.btn-menu:hover {
-    background-color: #bf8a82;
-    cursor: pointer;
-
-}
-
-
 .container-titles {
     background-color: #84533E;
 
 }
+
+
+
