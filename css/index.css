@@ -6,14 +6,15 @@ body {
     background-color: #f1f1f1;
     font-family: "Lato" , monospace;
 }
-/*BANNER DE TESTE SO PARA O TEXTO DESCER*/
+/*BANNER DE TESTE SO PARA O TEXTO DESCER
 .bannertest{
-    height: 100vh; /* vh faz com que de o tamanho/altura do monitor(tela) e vw é a largura*/
+    height: 100vh; /* vh faz com que de o tamanho/altura do monitor(tela) e vw é a largura*
     background-color: #d4d4d4;
-}
+}*/
 .container-titles {
     background-color: #84533E;
 }
+ /* INICIO ESTILIZAÇÃO TEXTO FILOSOFIA*/
 .filosofia{
     height: 500px;
     display: flex;
@@ -36,3 +37,4 @@ body {
     margin-top: 1.5rem;
     margin: 1.0rem;
 }
+/* FIM ESTILIZAÇÃO TEXTO FILOSOFIA*/
