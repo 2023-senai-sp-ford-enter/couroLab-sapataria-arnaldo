@@ -1,13 +1,10 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@100;200;600;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
 
 body {
-    color: white;
-    background-color: #543737;
-    font-family: 'Chivo Mono', monospace;
-    font-weight: 100;
-
+    color: #84533E;
+    background-color: #f1f1f1;
+    font-family: 'Lato', monospace;
 }
 .container-titles {
     background-color: #84533E;
@@ -19,12 +16,12 @@ body {
     margin: 2rem;
 
 }
-/*INICIO ESTILIZAÇÃO BANNER-INDEX*/
-.banner-index img{
+/*INICIO ESTILIZAÇÃO CONTAINER-BANNER-INDEX*/
+.container-banner-index img{
     width: 100%;
     height: 600px;
     object-fit: cover;
     padding-top: 1rem;
 }
-/*FIM ESTILIZAÇÃO BANNER-INDEX*/
+/*FIM ESTILIZAÇÃO CONTAINER-BANNER-INDEX*/
 
