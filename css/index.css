@@ -13,6 +13,12 @@ body {
     background-color: #84533E;
 
 }
-
-
+/*INICIO ESTILIZAÇÃO BANNER-INDEX*/
+.banner-index img{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    padding-top: 3rem;
+}
+/*FIM ESTILIZAÇÃO BANNER-INDEX*/
 
