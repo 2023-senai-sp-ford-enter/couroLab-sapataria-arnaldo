@@ -5,17 +5,9 @@ nav {
   justify-content: space-evenly;
   font-style: 'Chivo Mono', monospace;
   font-weight: bold;
-
+  
 }
 
-.btn-menu {
-  display: flex;
-  align-items:center;
-  font-family: 'Chivo Mono', monospace;
-  transition: background-color 0.25s;
-  font-size: 20px;
-
-}
 
 .btn-menu>a {
   margin:3px;
@@ -35,3 +27,6 @@ nav {
   cursor: pointer;
 
 }
+
+/* Divisória de menu */
+
