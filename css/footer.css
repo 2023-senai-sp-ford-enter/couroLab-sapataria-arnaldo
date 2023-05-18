@@ -9,12 +9,30 @@
   flex-direction: column;
 
 }
-.footer-itens {
+.footer-itens a {
   display: flex;
   flex-direction: column;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-decoration: none;
+  font-size: 20px;
+  justify-content: flex-start;
+  text-align: center;
 }
 
 .adress-style {
   margin: 25px;
+  justify-content: center;
+  display: flex;
 
+}
+
+.payment-logos {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100px;
+}
+.social-itens {
+  display: flex;
+  justify-content: center;
 }
