@@ -1,12 +1,19 @@
 
-.catalog-footer {
+.menu-rodape {
+  display: flex;
   text-align: start;
   font-family: 'Chivo Mono', monospace;
   font-size: 16px;
   color: rgb(254, 254, 254);
-  background-color: #84533E
+  background-color: #84533E;
+  flex-direction: column;
 
 }
+.footer-itens {
+  display: flex;
+  flex-direction: column;
+}
+
 .adress-style {
   margin: 25px;
 
