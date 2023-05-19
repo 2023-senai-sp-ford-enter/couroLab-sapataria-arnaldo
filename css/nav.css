@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 
+/* --Configurações do menu de navegação-- */
+
 nav {
   height: 90px;
   background-color: #84533E;
@@ -9,36 +11,37 @@ nav {
   font-family: 'Lato', monospace;
   font-weight: bold;
   padding: 0px 50px;
-  
-}
-
- nav > img{
-  height: 100%;
 
 }
 
- nav > ul{
+/* --Tamanho da logo-- */
+
+nav>img {
+  height: 95%;
+
+}
+
+/* --Espaçamento do menu-- */
+
+nav>ul {
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   width: 700px;
+
 }
 
- nav > ul > li{
+/* --Menu em letras maiúsculas-- */
+
+nav>ul>li {
   font-size: 25px;
   text-transform: uppercase;
-  
- 
+
 }
 
-nav > ul > li > a{
+/* --Cor do menu-- */
+
+nav>ul>li>a {
   color: #f1f1f1;
   text-decoration: none;
 
 }
-
-
-
-
-
-
-
