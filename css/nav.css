@@ -1,37 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+/* --Configurações do menu de navegação-- */
+
 nav {
+  height: 90px;
   background-color: #84533E;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
-  font-style: 'Chivo Mono', monospace;
+  justify-content: space-between;
+  font-family: 'Lato', monospace;
   font-weight: bold;
+  padding: 0px 50px;
 
 }
 
-.btn-menu {
+/* --Tamanho da logo-- */
+
+nav>img {
+  height: 95%;
+
+}
+
+/* --Espaçamento do menu-- */
+
+nav>ul {
   display: flex;
-  align-items:center;
-  font-family: 'Chivo Mono', monospace;
-  transition: background-color 0.25s;
-  font-size: 20px;
+  justify-content: space-between;
+  width: 700px;
 
 }
 
-.btn-menu>a {
-  margin:3px;
-  color: rgb(255, 255, 255);
-  margin-left: 5px;
+/* --Menu em letras maiúsculas-- */
+
+nav>ul>li {
+  font-size: 25px;
+  text-transform: uppercase;
 
 }
 
-.btn-menu>i {
-  margin:3px;
-  color: rgb(255, 255, 255);
- 
-}
+/* --Cor do menu-- */
 
-.btn-menu:hover {
-  background-color: #bf8a82;
-  cursor: pointer;
+nav>ul>li>a {
+  color: #f1f1f1;
+  text-decoration: none;
 
 }
