@@ -1,62 +1,80 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@100;200;600;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Ysabeau:ital,wght@0,1;0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,1;1,100;1,300;1,400;1,500;1,600;1,700&display=swap');
 
 body {
-    color: white;
-    background-color: #543737;
-    font-family: 'Chivo Mono', monospace;
-    font-weight: 100;
-
+    color: #84533E;
+    background-color: #f1f1f1;
+    font-family: "Lato", monospace;
 }
-/*BANNER DE TESTE SO PARA O TEXTO DESCER
-.bannertest{
-    height: 100vh; /* vh faz com que de o tamanho/altura do monitor(tela) e vw é a largura*
-    background-color: #d4d4d4;
-}*/
+
 .container-titles {
     background-color: #84533E;
 }
-.page-tittle {
-    font-size: 30pt;
-    display: flex;
-    margin: 2rem;
+
+
+
+/*INICIO ESTILIZAÇÃO CONTAINER-BANNER-INDEX*/
+header {
+    position: absolute;
+    width: 100%;
+    height: calc(100% - 90px);
 
 }
-/*INICIO ESTILIZAÇÃO CONTAINER-BANNER-INDEX*/
-.container-banner-index img{
+
+.containerTitleBanner {
+    position: absolute;
+}
+
+.container-banner-index {
+    width: 100%;
+    height: 100%;
+}
+
+.container-banner-index img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(75%);
+
+}
+
+
+/* .container-banner-index img{
     width: 100%;
     height: 600px;
     object-fit: cover;
     padding-top: 1rem;
-}
+} */
 /*FIM ESTILIZAÇÃO CONTAINER-BANNER-INDEX*/
 
 
 
 
 
- /* INICIO ESTILIZAÇÃO TEXTO FILOSOFIA*/
-.filosofia{
+/* INICIO ESTILIZAÇÃO TEXTO FILOSOFIA*/
+.filosofia {
     height: 500px;
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
     align-items: center;
 }
-.filosofia div{
+
+.filosofia div {
     width: 80%;
 }
-.filosofia > div > h1{
+
+.filosofia>div>h1 {
     font-family: "Lato";
     font-weight: bold;
     font-size: 20pt;
 }
-.filosofia >div > p{
-    font-family: "Ysabeau" ;
+
+.filosofia>div>p {
+    font-family: "Ysabeau";
     font-weight: 200;
     font-size: 15pt;
     margin-top: 1.5rem;
     margin: 1.0rem;
 }
+
 /* FIM ESTILIZAÇÃO TEXTO FILOSOFIA*/
