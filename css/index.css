@@ -1,14 +1,21 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@100;200;600;700&display=swap');
+
 
 body {
-    color: #84533E;
-    background-color: #f1f1f1;
-    font-family: 'Lato', monospace;
+    color: white;
+    background-color: #543737;
+    font-family: 'Chivo Mono', monospace;
+    font-weight: 100;
+
 }
+/*BANNER DE TESTE SO PARA O TEXTO DESCER
+.bannertest{
+    height: 100vh; /* vh faz com que de o tamanho/altura do monitor(tela) e vw é a largura*
+    background-color: #d4d4d4;
+}*/
 .container-titles {
     background-color: #84533E;
-
 }
 .page-tittle {
     font-size: 30pt;
@@ -25,3 +32,31 @@ body {
 }
 /*FIM ESTILIZAÇÃO CONTAINER-BANNER-INDEX*/
 
+
+
+
+
+ /* INICIO ESTILIZAÇÃO TEXTO FILOSOFIA*/
+.filosofia{
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+.filosofia div{
+    width: 80%;
+}
+.filosofia > div > h1{
+    font-family: "Lato";
+    font-weight: bold;
+    font-size: 20pt;
+}
+.filosofia >div > p{
+    font-family: "Ysabeau" ;
+    font-weight: 200;
+    font-size: 15pt;
+    margin-top: 1.5rem;
+    margin: 1.0rem;
+}
+/* FIM ESTILIZAÇÃO TEXTO FILOSOFIA*/
