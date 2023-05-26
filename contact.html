@@ -9,102 +9,126 @@
         content="Entre em contato para agendar horários para reparos de sapatos e bolsas ou para perguntar sobre algum produto que gostou do nosso catálogo.">
     <meta name="author" content="Leonardo Talanski">
     <title>Contato</title>
-    <link rel="stylesheet" href="css/style.css">
-    <script src="https://kit.fontawesome.com/9ec67f2471.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/contact.css">
 
 </head>
 
 <body class="contact">
+    <nav>
+        <img src="assets/nav/logo-sapataria-branco.png">
 
-    <nav class="div-menu">
-        <div class="btn-menu">
-            <i class="fa-solid fa-house"></i>
-            <a style="text-decoration:none;" href="index.html">Home</a>
-        </div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="catalog.html">Catálogo</a></li>
+            <li><a href="about-us.html">Sobre-Nós</a></li>
+            <li><a href="contact.html">Contato</a></li>
+        </ul>
 
-        <div class="btn-menu">
-            <i class="fa-solid fa-list"></i>
-            <a class="btn-menu" style="text-decoration:none;" href="catalog.html">Catálogo</a>
-        </div>
-
-        <div class="btn-menu">
-            <i class="fa-solid fa-circle-info"></i>
-            <a class="btn-menu" style="text-decoration:none;" href="about-us.html">Sobre-Nós</a>
-        </div>
-
-        <div class="btn-menu">
-            <i class="fa-solid fa-address-book"></i>
-            <a class="btn-menu" style="text-decoration:none;" href="contact.html">Contato</a>
-        </div>
     </nav>
+    <main>
+        <section class="container">
 
-    <div class="container">
+            <h1>Contato</h1>
+            <p>Preencha seus dados e entraremos em contato com você!</p>
 
-        <main>
+            <div class="form-image">
+                <form action="" method="" onsubmit="alert('Formulário Enviado')">
 
-            <h1>Fale conosco</h1>
-            <p>Preencha seus dados e entraremos em contato com você!</p><br>
+                    <label for="name"> Nome Completo:</label>
+                    <input type="text" id="name" autofocus required>
 
-            <form class="contact-form" action="" method="" onsubmit="alert('Formulário Enviado')">
+                    <label for="mail">E-mail:</label>
+                    <input type="email" id="mail" required>
 
-                <label for="name"> Nome Completo:</label>
-                <input type="text" id="name" autofocus required><br>
+                    <label for="subject">Assunto:</label>
+                    <select id="subject" required>
+                        <option value="prazo">Prazo para Entrega</option>
+                        <option value="orçamento">Orçamento</option>
+                        <option value="contato">Contato</option>
+                        <option value="troca">Troca</option>
+                        <option value="outros">Outros</option>
+                    </select>
+                    
+                    <label for="message">Mensagem:</label>
+                    <textarea id="message" cols="30" rows="5"></textarea>
 
-                <label for="mail">E-mail:</label>
-                <input type="email" id="mail" required>
+                    <label for="telephone">Telefone:</label>
+                    <input type="tel" id="telephone">
 
-                <label for="subject">Assunto:</label>
-                <input type="text" id="subject" required><br>
+                    <button>Enviar</button>
 
-                <label for="subject">Assunto</label>
-                <select id="subject" required>
-                    <option value="prazo">Prazo para Entrega</option>
-                    <option value="orçamento">Orçamento</option>
-                    <option value="contato">Contato</option>
-                    <option value="outros">Outros</option>
-                </select>
+                </form>
 
-                <label for="message">Mensagem:</label><br>
-                <textarea id="message" cols="30" rows="5"></textarea><br>
+                <div class="photo-shoemaker">
 
-                <label for="telephone">Telefone:</label>
-                <input type="tel" id="telephone"><br>
+                    <figure>
+                        <img src="https://2.bp.blogspot.com/-LPEEXOwnCT8/UyCbJc_g2UI/AAAAAAAADKk/pAmMKfj8i8w/s1600/pellegriniantiga.jpg"
+                            alt="foto do local">
+                    </figure>
+                    <div>
 
-                <button>Enviar</button>
+                        <h2> Horário de Funcionamento</h2>
+                        <p> Segunda-Feira á Sexta-Feira</p>
+                        <p> das 8h as 17h</p>
+                        <p> Sábados</p>
+                        <p> das 09h as 12h</p>
 
-            </form>
+                    </div>
 
-        </main>
+                </div>
+            </div>
+        </section>
+    </main>
 
-        <aside>
+    <footer class="rodape">
 
-            <img src="https://2.bp.blogspot.com/-LPEEXOwnCT8/UyCbJc_g2UI/AAAAAAAADKk/pAmMKfj8i8w/s1600/pellegriniantiga.jpg"
-                alt="foto do local">
+        <section class="menu-rodape">
 
-            <h3> Horário de Funcionamento</h3>
-            <p> Segunda-Feira á Sexta-Feira</p>
-            <p> das 8h as 17h</p>
-            <p> Sábados</p>
-            <p> das 09h as 12h</p>
+            <ul class="footer-itens">
+                <li><a href="index.html"> Volta ao topo </a> </li>
+                <li><a href="catalog.html"> Catálogo</a></li>
+                <li><a href="about-us.html"> Sobre-nós</a></li>
+                <li><a href="contact"> Contato</a></li>
+            </ul>
 
-        </aside>
-
-    </div>
-
-    <footer class="catalog-footer">
-
-        <p class="adress-style"> Rua Forte Do Leme, 52<br>
-
-            Jd Santa Adélia<br>
-
-            São Paulo-SP<br>
-
-            <a>(11)5581-5581</a>
-
+            </div>
+            <div class="social-itens">
+                <p>Redes Sociais</p>
+                <div>
+                    <img src="./assets/footer/Gmail.svg">
+                    <img src="./assets/footer/Instagram.svg">
+                    <img src="./assets/footer/Whatsapp.svg">
+                </div>
+            </div>
+            <div class="payment-logos">
+                <p>Formas de pagamento</p>
+                <div>
+                    <img src="./assets/footer/Pix 10801080.svg">
+                    <img src="./assets/footer/mc_vrt_pos.svg">
+                    <img src="./assets/footer/expresso-americano.svg">
+                </div>
+                <div class="security">
+                    <p>Compra segura</p>
+                    <img src="">
+                </div>
+            </div>
+            <address class="adress-style">
+                <p>Rua Forte Do Leme, 52<br>
+                    Jd Santa Adélia<br>
+                    São Paulo-SP<br>
+                    (11)5581-5581 </p>
             </address>
+        </section>
 
+        <div class="copyrigth">
+            <p>Copyrigth by Sapataria Arnaldo</p>
+            <p>Desenvolvido por CouroLab</p>
+        </div>
     </footer>
-
 </body>
 
 </html>
