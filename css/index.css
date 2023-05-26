@@ -20,8 +20,10 @@ header {
 
 }
 
-.containerTitleBanner {
-    position: absolute;
+.title-banner {
+    font-family: lato;
+    font-size: 40pt;
+    background-image: url ("./assets/background/back-header.jpg");
 }
 
 .container-banner-index {
