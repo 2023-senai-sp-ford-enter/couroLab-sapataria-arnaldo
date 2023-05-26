@@ -1,0 +1,44 @@
+.about-us{
+    color: #84533E;
+    font-family: "Ysabeau" ;
+    font-weight: 200;
+    font-size: 15pt;
+    text-align: justify; 
+    display: grid;
+    grid-template-columns: 10% 1.5fr 2% 1fr 10%; /*serve para criar colunas na pagina*/
+    height: 100vh;
+}
+
+.about-us > div:first-child{
+    grid-column: 2;
+    align-self: center;
+}
+
+.titlle-page{
+    font-family: "Lato";
+    font-weight: bold;
+    font-size: 25pt;
+    padding-left: 2rem;
+    margin: 2rem;
+}
+
+.subtitle-page{
+    font-family: "Lato";
+    font-weight: bold;
+    font-size: 25pt;
+    padding-left: 2rem;
+    margin: 2rem;
+      
+}
+
+.image-about-us{
+   grid-column: 4;  
+   align-self: center;
+}
+
+.image-about-us img{
+    object-fit: cover;
+    height: 35%;
+    width: 100%;  
+}
+
