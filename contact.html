@@ -9,7 +9,7 @@
         content="Entre em contato para agendar horários para reparos de sapatos e bolsas ou para perguntar sobre algum produto que gostou do nosso catálogo.">
     <meta name="author" content="Leonardo Talanski">
     <title>Contato</title>
-    
+
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/nav.css">
     <link rel="stylesheet" href="./css/footer.css">
@@ -29,59 +29,60 @@
         </ul>
 
     </nav>
+    <main>
+        <section class="container">
 
-    <div class="container">
+            <h1>Contato</h1>
+            <p>Preencha seus dados e entraremos em contato com você!</p>
 
-        <main>
+            <div class="form-image">
+                <form action="" method="" onsubmit="alert('Formulário Enviado')">
 
-            <h1>Fale conosco</h1>
-            <p>Preencha seus dados e entraremos em contato com você!</p><br>
+                    <label for="name"> Nome Completo:</label>
+                    <input type="text" id="name" autofocus required>
 
-            <form class="contact-form" action="" method="" onsubmit="alert('Formulário Enviado')">
+                    <label for="mail">E-mail:</label>
+                    <input type="email" id="mail" required>
 
-                <label for="name"> Nome Completo:</label>
-                <input type="text" id="name" autofocus required><br>
+                    <label for="subject">Assunto:</label>
+                    <select id="subject" required>
+                        <option value="prazo">Prazo para Entrega</option>
+                        <option value="orçamento">Orçamento</option>
+                        <option value="contato">Contato</option>
+                        <option value="troca">Troca</option>
+                        <option value="outros">Outros</option>
+                    </select>
+                    
+                    <label for="message">Mensagem:</label>
+                    <textarea id="message" cols="30" rows="5"></textarea>
 
-                <label for="mail">E-mail:</label>
-                <input type="email" id="mail" required>
+                    <label for="telephone">Telefone:</label>
+                    <input type="tel" id="telephone">
 
-                <label for="subject">Assunto:</label>
-                <input type="text" id="subject" required><br>
+                    <button>Enviar</button>
 
-                <label for="subject">Assunto</label>
-                <select id="subject" required>
-                    <option value="prazo">Prazo para Entrega</option>
-                    <option value="orçamento">Orçamento</option>
-                    <option value="contato">Contato</option>
-                    <option value="outros">Outros</option>
-                </select>
+                </form>
 
-                <label for="message">Mensagem:</label><br>
-                <textarea id="message" cols="30" rows="5"></textarea><br>
+                <div class="photo-shoemaker">
 
-                <label for="telephone">Telefone:</label>
-                <input type="tel" id="telephone"><br>
+                    <figure>
+                        <img src="https://2.bp.blogspot.com/-LPEEXOwnCT8/UyCbJc_g2UI/AAAAAAAADKk/pAmMKfj8i8w/s1600/pellegriniantiga.jpg"
+                            alt="foto do local">
+                    </figure>
+                    <div>
 
-                <button>Enviar</button>
+                        <h2> Horário de Funcionamento</h2>
+                        <p> Segunda-Feira á Sexta-Feira</p>
+                        <p> das 8h as 17h</p>
+                        <p> Sábados</p>
+                        <p> das 09h as 12h</p>
 
-            </form>
+                    </div>
 
-        </main>
-
-        <aside>
-
-            <img src="https://2.bp.blogspot.com/-LPEEXOwnCT8/UyCbJc_g2UI/AAAAAAAADKk/pAmMKfj8i8w/s1600/pellegriniantiga.jpg"
-                alt="foto do local">
-
-            <h3> Horário de Funcionamento</h3>
-            <p> Segunda-Feira á Sexta-Feira</p>
-            <p> das 8h as 17h</p>
-            <p> Sábados</p>
-            <p> das 09h as 12h</p>
-
-        </aside>
-
-    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
     <footer class="rodape">
 
@@ -122,7 +123,7 @@
                     (11)5581-5581 </p>
             </address>
         </section>
-       
+
         <div class="copyrigth">
             <p>Copyrigth by Sapataria Arnaldo</p>
             <p>Desenvolvido por CouroLab</p>

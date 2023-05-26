@@ -1,0 +1,30 @@
+/* contato */
+
+
+.container h1 {
+    font-size: 40px;
+    font-style: bold;
+}
+
+
+
+
+
+.form-image {
+    height: calc(100vh - 159px - 244.66px);
+    display: grid;
+    grid-template-columns: 10% 1fr 1% 1fr 10%;
+    
+}
+
+.form-image > form {
+    grid-column: 2;
+   display: flex;
+   flex-direction: column;
+      
+
+}
+
+.photo-shoemaker {
+    grid-column: 4;
+}
