@@ -45,3 +45,22 @@ nav>ul>li>a {
   text-decoration: none;
 
 }
+
+
+
+
+
+
+/* Responsividade */
+
+@media screen and (max-width: 800px) {
+  nav>img {
+    height: 88%;
+  }
+  nav>ul {
+    width: 450px;
+  }
+  nav>ul>li {
+    font-size: 20px;
+  }
+}

@@ -69,7 +69,7 @@
   display: flex;
   width: 100%;
   justify-content: space-evenly;
-  margin-top: 60px;
+  align-self: center;
 
 }
 
@@ -81,3 +81,16 @@
 
 /* Termino footer */
 
+
+
+
+/* Responsividade */
+
+@media screen and (max-width: 800px) {
+  .menu-rodape {
+    flex-wrap: wrap;
+  }
+  .menu-rodape > ul, div, address {
+
+  }
+}
