@@ -70,11 +70,13 @@
   width: 100%;
   justify-content: space-evenly;
   align-self: center;
+  margin-top: 4rem;
 
 }
 
 .copyrigth {
   text-align: center;
+  margin-top: 1rem;
   font-size: 10pt;
   opacity: 0.6 ;
 }
@@ -90,7 +92,12 @@
   .menu-rodape {
     flex-wrap: wrap;
   }
-  .menu-rodape > ul, div, address {
+  .menu-rodape > ul, div, address, {
+    overflow: hidden;
+  }
+  .copyrigth {
+    overflow: hidden;
+    padding: 50px 0px;
 
   }
 }
