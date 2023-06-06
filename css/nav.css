@@ -43,5 +43,16 @@ nav>ul>li {
 nav>ul>li>a {
   color: #f1f1f1;
   text-decoration: none;
+  justify-content: end;
+  
 
 }
+
+.logo-login{
+  height: 50px;
+
+}
+
+
+
+
