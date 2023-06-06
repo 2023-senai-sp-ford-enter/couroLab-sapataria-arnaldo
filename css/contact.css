@@ -27,17 +27,18 @@ body {
     
 }
 
+
 .form-image > form {
     grid-column: 2;
-   display: flex;
-   flex-direction: column;
-      
-
+    display: flex;
+    flex-direction:column;
+    width: 100%;
+   
 }
 
 .photo-shoemaker {
-    grid-column: 4;
-}
+    grid-column: 4; 
+} 
 
 /* estilização de contato */
 
@@ -56,12 +57,27 @@ body {
  .form-image {
 
     margin-right: 30rem;
+    border-radius: 8px;
+    width: 100%;
+    margin: auto;
+
  }
 
  .photo-shoemaker {
     margin-left: 30rem;
+    
  }
 
 .form-image label {
     padding: 0.4rem;
+    width: 100%;
+    margin: 10px;
+
 }
+.photo-shoemaker img {
+   height:150%;
+}
+.form-image input {
+    line-height: 20px; /* altura da linha */
+}
+
