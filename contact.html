@@ -33,7 +33,7 @@
         <section class="container">
 
             <h1>Contato</h1>
-            <p>Preencha seus dados e entraremos em contato com você!</p>
+            <p class="sub-titlecontact">Preencha seus dados e entraremos em contato com você!</p>
 
             <div class="form-image">
                 <form action="" method="" onsubmit="alert('Formulário Enviado')">
@@ -42,7 +42,7 @@
                     <input type="text" id="name" autofocus required>
 
                     <label for="mail">E-mail:</label>
-                    <input type="email" id="mail" required>
+                    <input type="email" id="mail" required placeholder="example@email.com">
 
                     <label for="subject">Assunto:</label>
                     <select id="subject" required>
@@ -54,10 +54,10 @@
                     </select>
                     
                     <label for="message">Mensagem:</label>
-                    <textarea id="message" cols="30" rows="5"></textarea>
+                    <textarea id="message" cols="30" rows="5" placeholder="Digite aqui sua mensagem..." minlength="1" maxlength="400"></textarea>
 
-                    <label for="telephone">Telefone:</label>
-                    <input type="tel" id="telephone">
+                    <label  for="telephone">Telefone:</label >
+                    <input type="tel" id="telephone" placeholder="(XX)XXXXX-XXXX">
 
                     <button>Enviar</button>
 
