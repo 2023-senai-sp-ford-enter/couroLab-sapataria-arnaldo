@@ -77,7 +77,17 @@ header>figure>img {
 /*FIM ESTILIZAÇÃO CONTAINER-BANNER-INDEX*/
 
 
+/*INÍCIO DE AÇÃO DE ROLAGEM SETA*/
 
+/* --Ação de rolagem da seta-- */
+html{
+    scroll-behavior: smooth;
+}
+
+/* --Tamanho da seta-- */
+.width-setinha{
+    width: 50px;
+}
 
 
  /* INICIO ESTILIZAÇÃO TEXTO FILOSOFIA*/
