@@ -59,17 +59,28 @@ form {
     padding-top: 16px;
   }
 
-/* --Ínicio estilização login formulário-- */
+
+
+  /* --ÍNICIO ESTILIZAÇÃO LOGIN FORMULÁRIO-- */
+
+
+/* Background da tela formulário */
   body {
 
     padding: 0;
 
     margin: 0;
 
-    background-color: #454d6b;
+    background-color: #f1f1f1;
+
+    font-family: "Ysabeau";
+
+    font-size: 35px;
+
 
 }
 
+/* Alinhamento da box de login ao centro da tela */
 #login {
 
     display: flex;
@@ -79,38 +90,44 @@ form {
     justify-content: center;
 
     height: 100vh;
+    
 
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
 
+/* Formatação da box de login */
 .card {
 
-    background-color: rgba(19, 19, 19, 0.3);
+    background-color: #84533E;
 
     padding: 40px;
 
     border-radius: 2px;
 
-    width:280px;
+    width:680px;
+
 
 }
 
+/* Estilização do login */
 .card-header {
 
     padding-bottom: 50px;
 
     opacity: 0.8;
 
-    color: #fff;
+    color: #f1f1f1;
+    
+
 
 }
+
 
 .card-header::after {
 
     content: "";
 
-    width: 70px;
+    width: 80px;
 
     height: 1px;
 
@@ -118,19 +135,21 @@ form {
 
     display: block;
 
-    margin-top: -17px;
-
-    margin-left: -5px;
+    margin-left: 2px;
 
 }
 
+/* Formatação seção usuário e login */
 .card-content label {
 
-    color: #fff;
-
-    font-size: 12px;
+    color: #f1f1f1;
 
     opacity: 0.8;
+
+    font-family: "Ysabeau";
+
+    font-size: 20px;
+
 
 }
 
@@ -170,13 +189,14 @@ form {
 
 }
 
+/* Estilização botão login */
 .card-footer .submit{
 
     width: 100%;
 
     height: 40px;
 
-    background-color: #a13854;
+    background-color: #3b1f13;
 
     border:none;
 
@@ -184,8 +204,14 @@ form {
 
     margin: 10px 0;
 
+    font-family: "Ysabeau";
+
+    font-size: 20px;
+
+
 }
 
+/* Estilização e alinhamento botaão Esqueceu a senha */
 .card-footer a {
 
     text-align: center;
@@ -194,11 +220,19 @@ form {
 
     opacity: 0.8;
 
-    color: #fff;
+    color: #f1f1f1;
 
     text-decoration: none;
 
+    
+    font-family: "Ysabeau";
+
+    font-size: 20px;
+
 }
+
+/* --FIM ESTILIZAÇÃO LOGIN FORMULÁRIO-- */
+
   
   /* Change styles for span and cancel button on extra small screens */
   @media screen and (max-width: 300px) {
