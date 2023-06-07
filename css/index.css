@@ -121,5 +121,27 @@ header>figure>img {
         font-size: 12pt;
     }
 }
+@media screen and (max-width: 670px) {
+    .title-banner>h1 {
+        font-size: 52pt;
+    }
+    .title-banner>p {
+        font-size: 11pt;
+    }
+}
+@media screen and (max-width: 570px) {
+    .title-banner>p {
+        font-size: 9pt;
+    }
+}
+@media screen and (max-width: 435px) {
+    .title-banner>h1 {
+        font-size: 45pt;
+    }
+    .title-banner>p {
+        font-size: 7pt;
+    }
+}
+
 
 /* final responsividade index*/
