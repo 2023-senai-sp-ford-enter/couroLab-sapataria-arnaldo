@@ -161,7 +161,10 @@ form {
 
     padding:10px 0;
 
+
 }
+
+
 
 .card-content-area input {
 
@@ -178,8 +181,16 @@ form {
     outline: none;
 
     color: #fff;
+    
+    font-size: 15px;
 
 }
+
+.card-content-area ::placeholder {
+    color:#f1f1f1;
+    opacity: 0.5;
+}
+
 
 .card-footer {
 
