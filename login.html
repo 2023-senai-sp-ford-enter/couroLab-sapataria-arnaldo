@@ -9,12 +9,13 @@
     <title>Login</title>
 
     <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/nav.css">
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/login.css">
 </head>
 <body>
+
+    <!--
     <nav>
         <img src="assets/nav/logo-sapataria-branco.png">
 
@@ -27,37 +28,54 @@
         </ul>
 
     </nav>
+    -->
 
     <main>
-        <div>
-            <form action="action_page.php" method="post">
-                <div class="imgcontainer">
-                  <img src="assets/banner-teste.webp" alt="Avatar" class="avatar">
-                </div>
-              
-                <div class="container">
-                  <label for="uname"><b>Username</b></label>
-                  <input type="text" placeholder="Enter Username" name="uname" required>
-              
-                  <label for="psw"><b>Password</b></label>
-                  <input type="password" placeholder="Enter Password" name="psw" required>
-              
-                  <button type="submit">Login</button>
-                  <label>
-                    <input type="checkbox" checked="checked" name="remember"> Remember me
-                  </label>
-                </div>
-              
-                <div class="container" style="background-color:#f1f1f1">
-                  <button type="button" class="cancelbtn">Cancel</button>
-                  <span class="psw">Forgot <a href="#">password?</a></span>
-                </div>
-              </form> 
-            </div>
+         <div id="login">
 
+            <form class="card">
+
+                <div class="card-header">
+
+                    <h2>Login</h2>
+
+                </div>
+
+                <div class="card-content">
+
+                    <div class="card-content-area">
+
+                        <label for="usuario">Usuário</label>
+
+                        <input type="text" id="usuario" autocomplete="off">
+
+                    </div>
+
+                    <div class="card-content-area">
+
+                        <label for="password">Senha</label>
+
+                        <input type="password" id="password" autocomplete="off">
+
+                    </div>
+
+                </div>
+
+                <div class="card-footer">
+
+                    <input type="submit" value="login" class="submit">
+
+                    <a href="#" class="recuperar_senha">Esqueceu a senha?</a>
+
+                </div>
+
+            </form>
+
+        </div>
 
     </main>
 
+    <!--
     <footer class="rodape">
 
         <section class="menu-rodape">
@@ -103,5 +121,6 @@
             <p>Desenvolvido por CouroLab</p>
         </div>
     </footer>
+-->
 </body>
 </html>
