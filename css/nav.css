@@ -45,3 +45,55 @@ nav>ul>li>a {
   text-decoration: none;
 
 }
+
+
+
+
+
+
+/* Responsividade */
+
+@media screen and (max-width: 800px) {
+  nav>img {
+    height: 88%;
+  }
+  nav>ul {
+    width: 450px;
+  }
+  nav>ul>li {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 670px) {
+  nav>ul {
+    width: 350px;
+  }
+  nav>ul>li {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 570px) {
+  nav>img {
+    height: 55%;
+  }
+  nav>ul {
+    width: 250px;
+  }
+  nav>ul>li {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 435px) {
+  nav>img {
+    height: 52%;
+  }
+  nav>ul {
+    width: 230px;
+  }
+  nav>ul>li {
+    font-size: 10px;
+  }
+}
+
+
+/* final responsividade nav */

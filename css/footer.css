@@ -12,10 +12,19 @@
 .menu-rodape {
   display: flex;
  
+  font-size: 16px;
   width: 100%;
   height: 200px;
   justify-content: space-evenly;
+  align-items: center;
  
+}
+/* borda dos itens do container "menu-rodape" */
+.menu-rodape>ul, .menu-rodape>div, .menu-rodape>address {
+  margin: 0px 10px;
+  width: 30%;
+  display: flex;
+  align-items: center;
 }
 
 .menu-rodape a {
@@ -25,9 +34,7 @@
 
 .footer-itens {
   display: flex;
-  margin-top: 4rem;
   flex-direction: column;
-  font-size: 20px;
   color: black;
   height: 30%;
 }
@@ -40,44 +47,67 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 4rem;
   height: 30%;
+  margin-bottom: 5px;
 }
 
 .social-itens img {
-  width: 60px;
+  width: 50px;
 }
 
 .payment-logos {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 4rem;
   height: 30%;
 
 }
 
 .payment-logos img {
-  width: 60px;
+  width: 45px;
 }
 
 .security {
-  opacity: 0.6;
+  opacity: 0.7;
 }
 
 .adress-style p {
   display: flex;
   width: 100%;
   justify-content: space-evenly;
-  margin-top: 60px;
+  align-self: center;
 
 }
 
 .copyrigth {
   text-align: center;
+  margin-top: 1rem;
   font-size: 10pt;
   opacity: 0.6 ;
 }
 
 /* Termino footer */
 
+
+
+
+/* Responsividade */
+
+@media screen and (max-width: 800px) {
+  .menu-rodape {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 570px) {
+  .menu-rodape {
+    font-size: 15px;
+  }
+  .payment-logos img {
+    width: 35px;
+  }
+  .social-itens img {
+    width: 35px;
+  }
+}
+
+/* Final responsividade footer*/
