@@ -45,11 +45,12 @@ nav>ul>li>a {
   text-decoration: none;
   justify-content: end;
   
-
 }
 
-.logo-login{
-  height: 50px;
+/* --Tamanho do ícone login-- */
+
+nav>ul>li>a>i { 
+  font-size: 30px;
 
 }
 
