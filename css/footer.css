@@ -92,12 +92,12 @@
   .menu-rodape {
     flex-wrap: wrap;
   }
-  .menu-rodape > ul, div, address, {
-    overflow: hidden;
-  }
+
+
   .copyrigth {
     overflow: hidden;
     padding: 50px 0px;
+    padding-top: 5rem;
 
   }
 }
