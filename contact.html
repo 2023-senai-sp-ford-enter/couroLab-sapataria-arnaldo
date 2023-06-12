@@ -36,27 +36,40 @@
 
             <div class="form-image">
                 <form action="" method="" onsubmit="alert('Formulário Enviado')">
+                    <div>
+                        <label for="name"> Nome Completo:</label>
+                        <input type="text" id="name" autofocus required placeholder="Arnaldo Da Silva Santos">
 
-                    <label for="name"> Nome Completo:</label>
-                    <input type="text" id="name" autofocus required>
+                    </div>
+                    <div>
+                        <label for="mail">E-mail:</label>
+                        <input type="email" id="mail" required placeholder="example@email.com">
 
-                    <label for="mail">E-mail:</label>
-                    <input type="email" id="mail" required placeholder="example@email.com">
+                    </div>
+                    <div>
+                        <label for="subject">Assunto:</label>
+                        <select id="subject" required>
+                            <option value="">Escolha o assunto</option>
+                            <option value="prazo">Prazo para Entrega</option>
+                            <option value="orçamento">Orçamento</option>
+                            <option value="contato">Contato</option>
+                            <option value="troca">Troca</option>
+                            <option value="outros">Outros</option>
+                        </select>
+                            
+                    </div>
 
-                    <label for="subject">Assunto:</label>
-                    <select id="subject" required>
-                        <option value="prazo">Prazo para Entrega</option>
-                        <option value="orçamento">Orçamento</option>
-                        <option value="contato">Contato</option>
-                        <option value="troca">Troca</option>
-                        <option value="outros">Outros</option>
-                    </select>
-                    
-                    <label for="message">Mensagem:</label>
-                    <textarea id="message" cols="30" rows="5" placeholder="Digite aqui sua mensagem..." minlength="1" maxlength="400"></textarea>
+                    <div>
+                        <label for="message">Mensagem:</label>
+                        <textarea id="message" cols="30" rows="5" placeholder="Digite aqui sua mensagem..."
+                            minlength="1" maxlength="400" required ></textarea>
 
-                    <label  for="telephone">Telefone:</label >
-                    <input type="tel" id="telephone" placeholder="(XX)XXXXX-XXXX">
+                    </div>
+                    <div>
+                        <label for="telephone">Telefone:</label>
+                        <input type="tel" id="telephone" placeholder="(XX)XXXXX-XXXX">
+
+                    </div>
 
                     <button>Enviar</button>
 
