@@ -125,17 +125,22 @@ form {
 
 .card-header::after {
 
-    content: "";
-
-    width: 80px;
-
-    height: 1px;
-
-    background-color: #fff;
+    text-decoration: underline;
 
     display: block;
 
     margin-left: 2px;
+
+}
+
+.card-header > h2 {
+
+  text-decoration: underline;
+
+  display: block;
+
+  margin-left: 2px;
+
 
 }
 
@@ -239,6 +244,14 @@ form {
     font-family: "Ysabeau";
 
     font-size: 20px;
+
+}
+
+/* Remoção da barra de rolagem do Login */
+
+html { 
+
+  overflow: hidden;
 
 }
 
