@@ -255,6 +255,49 @@ html {
 
 }
 
+/* Configuração e disposição dos ícones sociais */
+
+.icon-settings {
+
+  display: flex;
+  height: 50px;
+  margin-top: 2rem;
+  justify-content: space-evenly;
+  
+}
+
+/* Configuração das imagens dentro da div */
+
+.icon-settings img {
+
+  border-radius: 13px;
+
+}
+
+/* Estilização botão de cadastro */
+
+.account { 
+
+  text-align: center;
+
+  font-size: 12px;
+
+  opacity: 0.8;
+
+  color: #f1f1f1;
+
+  text-decoration: none;
+
+   font-family: "Ysabeau";
+
+  font-size: 20px;
+
+  padding-top: 2rem;
+
+
+} 
+
+
 /* --FIM ESTILIZAÇÃO LOGIN FORMULÁRIO-- */
 
   
