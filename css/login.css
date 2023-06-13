@@ -1,9 +1,11 @@
 /* Bordered form */
+
 form {
     border: 3px solid #f1f1f1;
   }
   
   /* Full-width inputs */
+
   input[type=text], input[type=password] {
     width: 100%;
     padding: 12px 20px;
@@ -14,6 +16,7 @@ form {
   }
   
   /* Set a style for all buttons */
+
   button-login {
     background-color: #141414;
     color: white;
@@ -25,11 +28,13 @@ form {
   }
   
   /* Add a hover effect for buttons */
+
   button:hover {
     opacity: 0.8;
   }
   
   /* Extra style for the cancel button (red) */
+
   .cancelbtn {
     width: auto;
     padding: 10px 18px;
@@ -37,34 +42,38 @@ form {
   }
   
   /* Center the avatar image inside this container */
+
   .imgcontainer {
     text-align: center;
     margin: 24px 0 12px 0;
   }
   
   /* Avatar image */
+
   img.avatar {
     width: 40%;
     border-radius: 50%;
   }
   
   /* Add padding to containers */
+
   .container {
     padding: 16px;
   }
   
   /* The "Forgot password" text */
+
   span.psw {
     float: right;
     padding-top: 16px;
   }
 
 
-
   /* --ÍNICIO ESTILIZAÇÃO LOGIN FORMULÁRIO-- */
 
 
 /* Background da tela formulário */
+
   body {
 
     padding: 0;
@@ -77,10 +86,10 @@ form {
 
     font-size: 35px;
 
-
 }
 
 /* Alinhamento da box de login ao centro da tela */
+
 #login {
 
     display: flex;
@@ -91,11 +100,10 @@ form {
 
     height: 100vh;
     
-
-
 }
 
 /* Formatação da box de login */
+
 .card {
 
     background-color: #84533E;
@@ -106,10 +114,10 @@ form {
 
     width:680px;
 
-
 }
 
 /* Estilização do login */
+
 .card-header {
 
     padding-bottom: 50px;
@@ -117,11 +125,8 @@ form {
     opacity: 0.8;
 
     color: #f1f1f1;
-    
-
 
 }
-
 
 .card-header::after {
 
@@ -141,10 +146,10 @@ form {
 
   margin-left: 2px;
 
-
 }
 
 /* Formatação seção usuário e login */
+
 .card-content label {
 
     color: #f1f1f1;
@@ -154,7 +159,6 @@ form {
     font-family: "Ysabeau";
 
     font-size: 20px;
-
 
 }
 
@@ -166,9 +170,7 @@ form {
 
     padding:10px 0;
 
-
 }
-
 
 
 .card-content-area input {
@@ -196,7 +198,6 @@ form {
     opacity: 0.5;
 }
 
-
 .card-footer {
 
     display: flex;
@@ -206,6 +207,7 @@ form {
 }
 
 /* Estilização botão login */
+
 .card-footer .submit{
 
     width: 100%;
@@ -224,10 +226,10 @@ form {
 
     font-size: 20px;
 
-
 }
 
 /* Estilização e alinhamento botaão Esqueceu a senha */
+
 .card-footer a {
 
     text-align: center;
@@ -239,7 +241,6 @@ form {
     color: #f1f1f1;
 
     text-decoration: none;
-
     
     font-family: "Ysabeau";
 
@@ -250,7 +251,7 @@ form {
 /* Remoção da barra de rolagem do Login */
 
 html { 
-
+  
   overflow: hidden;
 
 }
@@ -274,6 +275,17 @@ html {
 
 }
 
+/* Estilização dos ícones após adicionar href facebook e google */
+
+.icon-settings a {
+
+  display: flex;
+  height: 50px;
+  margin-top: 0,5rem;
+  justify-content: space-evenly;
+
+}
+
 /* Estilização botão de cadastro */
 
 .account { 
@@ -293,7 +305,6 @@ html {
   font-size: 20px;
 
   padding-top: 2rem;
-
 
 } 
 
