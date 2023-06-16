@@ -1,5 +1,7 @@
 /* Bordered form */
 
+
+
 form {
     border: 3px solid #f1f1f1;
   }
@@ -80,7 +82,7 @@ form {
 
     margin: 0;
 
-    background-color: #f1f1f1;
+    background-color: white;
 
     font-family: "Ysabeau";
 
@@ -106,7 +108,7 @@ form {
 
 .card {
 
-    background-color: #84533E;
+    background-color: #753f1b;
 
     padding: 40px;
 
