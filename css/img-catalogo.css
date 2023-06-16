@@ -1,0 +1,128 @@
+body {
+    font-family: "Ysabeau";
+ }
+
+ main {
+    display: flex;
+    flex-direction: column;
+ }
+
+header{
+    display: flex;
+    padding-top: 50px;
+    margin-left: 80px;
+    justify-content: flex-start;
+    height: 100px;
+    font-family: "Ysabeau";
+    font-size: 55px;
+    
+}
+
+.design-title{
+    background-color: #753f1b;
+    height: 25px;
+    width: 35%;
+
+}
+
+.design-footer{
+    display: flex;
+    justify-content: flex-end;
+    background-color: #753f1b;
+    height: 25px;
+    width: 35%;
+    align-self: flex-end;
+    margin-bottom: 60px;
+   
+}
+
+/* INICIO ESTILIZAÇÃO imagens produtos */
+.secProduto {
+    display: flex;
+    height: 500px ;
+    justify-content: center;
+    padding-top: 80px ;
+}
+
+.containerCard {
+    height: 90%;
+
+}
+
+.contentCard {
+    display: flex;
+    width: 80%;
+    height: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    margin: auto;
+
+}
+
+.card {
+    width: 30rem;
+    height: 100%;
+    background-color: #753f1b;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerCardImg {
+    width: 90%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.containerCardImg>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+
+.containerCardImg>img {
+    object-position: bottom;
+}
+
+.conteudoCard {
+    display: flex;
+    justify-self: center;
+    width: 90%;
+    height: 15%;
+    justify-content: space-between;
+    align-items: center;
+}
+.conteudoCard>h1 {
+    width: 50%;
+    font-size: 18px;   
+    color: #ffffff;
+}
+
+.conteudoCard>p {
+    font-size: 18px;   
+    color: #ffffff;
+    
+}
+
+.conteudoCard>a>button {
+    height: 30px;
+    padding: 0.2rem 1rem;
+    border: none;
+    background-color: var(--principal-color);
+    color: #eeeeee;
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: 0.05s;
+}
+
+.conteudoCard button:hover {
+    cursor: pointer;
+}
+
+
+  /*  FIM ESTILIZAÇÃO CARD */
