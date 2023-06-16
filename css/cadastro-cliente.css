@@ -9,7 +9,7 @@
 
 body{
     font-family: 'Ysabeau';
-    background-color: #b2b1b1;
+    background-color: white;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -21,41 +21,43 @@ body{
     width: 50%;
     float: left;
     padding-right: 15px;
+
 }
 
 .box{
     display: flex;
-    width: 930px;
+    width: 1100px;
 }
 
 .img-box{
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: #84533E;
     width: 50%;
     display: flex;
     align-items: center;
     padding: 20px;
-    border-radius: 20px  0 0 20px;
+   
 }
 .img-box img{
     width: 100%;
 }
 .form-box{
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: #84533E;
     backdrop-filter: blur(40px);
     padding: 30px 40px;
     width: 50%;
-    border-radius: 0 20px 20px 0;
+    
 }
 .form-box h2{
-    font-size: 30px;
+    font-size: 35px;
+    color: white;
 }
-.form-box p{
-    font-weight: bold;
-    color: #3D3D3D;
+.form-box p{ 
+    color: white;
+    margin: 15px;
 }
 .form-box p a{
-    color: #84533E;
-    text-decoration: none;
+    color: white;
+    
 }
 .form-box form{
     margin: 20px 0;
@@ -64,8 +66,7 @@ form .input-group{
     margin-bottom: 15px;
 }
 form .input-group label{
-    color: #3D3D3D;
-    font-weight: bold;
+    color: white;
     display: block;
     margin-bottom: 5px;
     padding-left: 15px;
@@ -74,22 +75,23 @@ form .input-group input{
     width: 100%;
     height: 47px;
     background-color: rgba(255, 255, 255, 0.32);
-    border-radius: 20px;
+    /* border-radius: 20px;  DEIXA A BORDA ARREDONDADA*/
     outline: none;
     border: 2px solid transparent;
     padding: 15px;
     font-size: 15px;
-    color: #616161;
+    color: white;
     transition: all 0.4s ease;
 }
 form .input-group input:focus{ /*SERVE PARA QUANDO PASSAR O MOUSE AS BORDAS RESSALTAR COM A COR ESCOLHIDA*/
-    border-color: #ff008869;
+    /* border-color: #ff008869; */
+    /* border-color: blue; */
+    border-color: #3B1F13;
 }
 form .input-group button{
     width: 100%;
     height: 47px;
     background: #3B1F13;
-    border-radius: 20px;
     outline: none;
     border: none;
     margin-top: 15px;
