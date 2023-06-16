@@ -1,22 +1,23 @@
-.about-us{
+.about-us {
     color: #84533E;
-    font-family: "Ysabeau" ;
+    font-family: "Ysabeau";
     font-weight: 200;
     font-size: 15pt;
-    text-align: justify; 
+    text-align: justify;
     display: grid;
-    grid-template-columns: 10% 1.5fr 2% 1fr 10%; /*serve para criar colunas na pagina*/
-    height: 100vh;
-   
+    grid-template-columns: 10% 1.5fr 2% 1fr 10%;
+    /*serve para criar colunas na pagina*/
+    margin-bottom: 30px;
+
 }
 
-.about-us > div:first-child{
+.about-us>div:first-child {
     grid-column: 2;
     align-self: center;
-    
+
 }
 
-.titlle-page{
+.titlle-page {
     font-family: "Lato";
     font-weight: bold;
     font-size: 25pt;
@@ -24,32 +25,87 @@
     margin: 2rem;
 }
 
-.subtitle-page{
+.subtitle-page {
     font-family: "Lato";
     font-weight: bold;
     font-size: 25pt;
     padding-left: 2rem;
     margin: 2rem;
-      
+
 }
 
-.image-about-us{
-   grid-column: 4;  
-   align-self: center;
-   
+.image-about-us {
+    grid-column: 4;
+    width: 100%;
+    height: 100%;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+
 }
 
-.image-about-us img{
+.image-about-us img {
     object-fit: cover;
-    height: 35%;
-    width: 80%; 
+    height: 40%;
+    width: 100%;
 
 }
 
 /* Responsividade Sobre nós */
 
-@media screen and (max-width: 800px) {
- 
+@media screen and (max-width: 1500px) {
+    .about-us {
+        font-size: 15pt;
+        grid-template-columns: 5% 1.5fr 2% 1fr 5%;
+
+    }
+
+}
+
+@media screen and (max-width: 1100px) {
+    .about-us {
+        font-size: 13pt;
+        grid-template-columns: 2% 1.5fr 2% 1fr 2%;
+
+    }
+
+}
+
+@media screen and (max-width: 850px) {
+    .about-us {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1.5fr 1fr 10%;
+        /*serve para criar colunas na pagina*/
+        margin-bottom: 30px;
+        height: 100vh;
+
+    }
+
+    .about-us>div:first-child {
+        grid-column: 1;
+        grid-row: 1;
+        align-self: flex-start;
     }
 
 
+    .image-about-us {
+        grid-column: 1;
+        grid-row: 2;
+        width: 100%;
+        height: 100%;
+        align-self: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+
+    }
+}
+
+@media screen and (max-width: 670px) {}
+
+@media screen and (max-width: 570px) {}
+
+@media screen and (max-width: 435px) {}
