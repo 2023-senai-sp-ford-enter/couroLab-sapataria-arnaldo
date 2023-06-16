@@ -2,10 +2,38 @@ body {
     font-family: "Ysabeau";
  }
 
+ main {
+    display: flex;
+    flex-direction: column;
+ }
+
 header{
+    display: flex;
+    padding-top: 50px;
+    margin-left: 80px;
+    justify-content: flex-start;
     height: 100px;
-    background-color: #753f1b;
     font-family: "Ysabeau";
+    font-size: 55px;
+    
+}
+
+.design-title{
+    background-color: #753f1b;
+    height: 25px;
+    width: 35%;
+
+}
+
+.design-footer{
+    display: flex;
+    justify-content: flex-end;
+    background-color: #753f1b;
+    height: 25px;
+    width: 35%;
+    align-self: flex-end;
+    margin-bottom: 60px;
+   
 }
 
 /* INICIO ESTILIZAÇÃO imagens produtos */
@@ -95,4 +123,6 @@ header{
 .conteudoCard button:hover {
     cursor: pointer;
 }
+
+
   /*  FIM ESTILIZAÇÃO CARD */
