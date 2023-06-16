@@ -1,15 +1,18 @@
+body {
+    font-family: "Ysabeau";
+ }
 
 header{
     height: 100px;
     background-color: #753f1b;
+    font-family: "Ysabeau";
 }
 
 /* INICIO ESTILIZAÇÃO imagens produtos */
 .secProduto {
     display: flex;
     height: 500px ;
-    width: 500px;
-    align-items: center;
+    justify-content: center;
     padding-top: 80px ;
 }
 
@@ -69,7 +72,13 @@ header{
 .conteudoCard>h1 {
     width: 50%;
     font-size: 18px;   
-    color: #a89c9c;
+    color: #ffffff;
+}
+
+.conteudoCard>p {
+    font-size: 18px;   
+    color: #ffffff;
+    
 }
 
 .conteudoCard>a>button {
