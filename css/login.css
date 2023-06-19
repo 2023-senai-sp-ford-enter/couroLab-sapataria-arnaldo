@@ -99,8 +99,8 @@ form {
     align-items: center;
 
     justify-content: center;
-
-    height: 100vh;
+    
+    height: 85vh;
     
 }
 
@@ -252,12 +252,12 @@ form {
 
 /* Remoção da barra de rolagem do Login */
 
+
 html { 
   
-  overflow: hidden;
+  overflow;
 
 }
-
 /* Configuração e disposição dos ícones sociais */
 
 .icon-settings {
