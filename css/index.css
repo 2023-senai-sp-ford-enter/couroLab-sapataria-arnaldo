@@ -33,11 +33,14 @@ header {
     font-size: 70pt;
     color: #f1f1f1;
     font-weight: 600;
+    width: 30px;
 
 }
-.title-banner>p {
+.title-banner p {
     color: #f1f1f1da;
     font-size: 13pt;
+    width: 45%;
+    text-align: justify;
 }
 
 header>figure {
