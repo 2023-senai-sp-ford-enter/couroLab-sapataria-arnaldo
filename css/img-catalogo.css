@@ -7,7 +7,7 @@ body {
     flex-direction: column;
  }
 
-header{
+.product-title{
     display: flex;
     padding-top: 50px;
     margin-left: 80px;
@@ -25,7 +25,7 @@ header{
 
 }
 
-.design-footer{
+.bottom-design{
     display: flex;
     justify-content: flex-end;
     background-color: #753f1b;
