@@ -47,6 +47,22 @@ nav>ul>li>a {
   
 }
 
+/* --Estilização do h2 login-- */
+
+.div-login > h2 {
+  color: #ffffff;
+  font-size: 15px;
+  margin-top: 8px;
+
+}
+
+/* --Remoção do Uppercase-- */
+
+#login-btn {
+  text-transform:capitalize;
+
+}
+
 
 
 
