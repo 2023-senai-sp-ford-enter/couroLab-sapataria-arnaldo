@@ -39,7 +39,6 @@ header {
 .title-banner p {
     color: #f1f1f1da;
     font-size: 13pt;
-    width: 45%;
     text-align: justify;
 }
 
@@ -145,15 +144,16 @@ html{
 }
 @media screen and (max-width: 570px) {
     .title-banner>p {
-        font-size: 9pt;
+        font-size: 15pt;
+        ;
     }
 }
 @media screen and (max-width: 435px) {
     .title-banner>h1 {
-        font-size: 45pt;
+        font-size: 11pt;
     }
     .title-banner>p {
-        font-size: 7pt;
+        font-size: 12pt;
     }
 }
 
