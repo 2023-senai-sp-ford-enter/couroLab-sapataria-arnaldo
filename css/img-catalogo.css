@@ -8,8 +8,8 @@ body {
  }
 
 .product-title{
-    padding-top: 50px;
-    text-indent: 80px; /*espaçao do texto */
+    margin-top: 100px;
+    text-indent: 80px; /*espaçao do texto, como se fosse um margin mas nao é */
     height: 100px;
     font-family: "Ysabeau";
     font-size: 55px;
@@ -26,8 +26,11 @@ body {
 
 .secProduto::after{ /*o metodo after serve para criar algo depois do product-title, se fosse before seria para criar algo antes do product-title*/
     content: ''; /*Sempre que usa o before e o after deve se usar um content*/
-    display: inline-block; /* display block serve para formar um bloco*/
-    right: 0 ;
+    position: absolute;
+    right: 0;
+    transform: translateY(80px);
+    justify-self: flex-end;
+    align-self: flex-end;
     height: 25px;
     width: 35%;
     background-color: #753f1b;
@@ -51,6 +54,10 @@ body {
     gap: 50px; /* gap só funciona com o display flex, que serve para dar espaço entre um item e outro que estao juntos dentro deste container*/
     justify-content: center;
     padding-top: 80px ;
+}
+
+.secProduto:last-of-type{ /*last of type é o ultimo do tipo, no caso a ultima section*/
+    margin-bottom: 150px;
 }
 
 .containerCard {
