@@ -56,6 +56,11 @@ nav>ul>li>a {
 
 }
 
+ul {
+  text-align: center;
+
+}
+
 /* --Remoção do Uppercase-- */
 
 #login-btn {
