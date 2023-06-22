@@ -3,7 +3,7 @@
 /* --CONFIGURAÇÕES DO MENU DE NAVEGAÇÃO-- */
 
 nav {
-  height: 90px;
+  height: 105px;
   background-color: #753f1b;
   display: flex;
   align-items: center;
@@ -47,9 +47,28 @@ nav>ul>li>a {
   
 }
 
+/* --Estilização do h2 login-- */
 
+.div-login > h2 {
+  color: #ffffff;
+  font-size: 15px;
+  margin-top: 8px;
 
+}
 
+/* --Alinhamento do h2 login com o icone-- */
+
+ul {
+  text-align: center;
+
+}
+
+/* --Remoção do Uppercase-- */
+
+#login-btn {
+  text-transform:capitalize;
+
+}
 
 
 /* Responsividade */
