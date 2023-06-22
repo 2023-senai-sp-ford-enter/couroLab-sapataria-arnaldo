@@ -7,25 +7,36 @@ body {
     flex-direction: column;
  }
 
-header{
-    display: flex;
-    padding-top: 50px;
-    margin-left: 80px;
-    justify-content: flex-start;
+.product-title{
+    margin-top: 100px;
+    text-indent: 80px; /*espaçao do texto, como se fosse um margin mas nao é */
     height: 100px;
     font-family: "Ysabeau";
     font-size: 55px;
     
 }
 
-.design-title{
-    background-color: #753f1b;
+.product-title::after{ /*o metodo after serve para criar algo depois do product-title, se fosse before seria para criar algo antes do product-title*/
+    content: ''; /*Sempre que usa o before e o after deve se usar um content*/
+    display: inline-block; /* display block serve para formar um bloco*/
     height: 25px;
     width: 35%;
-
+    background-color: #753f1b;
 }
 
-.design-footer{
+.secProduto::after{ /*o metodo after serve para criar algo depois do product-title, se fosse before seria para criar algo antes do product-title*/
+    content: ''; /*Sempre que usa o before e o after deve se usar um content*/
+    position: absolute;
+    right: 0;
+    transform: translateY(80px);
+    justify-self: flex-end;
+    align-self: flex-end;
+    height: 25px;
+    width: 35%;
+    background-color: #753f1b;
+}
+
+.bottom-design{
     display: flex;
     justify-content: flex-end;
     background-color: #753f1b;
@@ -39,9 +50,14 @@ header{
 /* INICIO ESTILIZAÇÃO imagens produtos */
 .secProduto {
     display: flex;
-    height: 500px ;
+    flex-wrap: wrap; /* flex wrap quebra linha*/
+    gap: 50px; /* gap só funciona com o display flex, que serve para dar espaço entre um item e outro que estao juntos dentro deste container*/
     justify-content: center;
     padding-top: 80px ;
+}
+
+.secProduto:last-of-type{ /*last of type é o ultimo do tipo, no caso a ultima section*/
+    margin-bottom: 150px;
 }
 
 .containerCard {
@@ -61,7 +77,7 @@ header{
 
 .card {
     width: 30rem;
-    height: 100%;
+    height: 500px;
     background-color: #753f1b;
     border-radius: 0.5rem;
     display: flex;
