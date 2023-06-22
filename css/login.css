@@ -105,8 +105,8 @@ main {
 
     justify-content: center;
 
-  
     
+    height: 85vh;   
 }
 
 /* Formatação da box de login */
@@ -257,11 +257,6 @@ main {
 
 /* Remoção da barra de rolagem do Login */
 
-html { 
-  
-  overflow: hidden;
-
-}
 
 /* Configuração e disposição dos ícones sociais */
 
