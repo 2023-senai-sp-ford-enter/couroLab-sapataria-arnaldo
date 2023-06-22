@@ -59,9 +59,7 @@ form {
   
   /* Add padding to containers */
 
-  .container {
-    padding: 16px;
-  }
+ 
   
   /* The "Forgot password" text */
 
@@ -78,29 +76,36 @@ form {
 
   body {
 
-    padding: 0;
-
-    margin: 0;
-
-    background-color: white;
-
     font-family: "Ysabeau";
 
     font-size: 35px;
 
 }
 
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(100vh - 312px);
+  padding: 50px;
+}
+.container-login {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
 /* Alinhamento da box de login ao centro da tela */
 
 #login {
 
-    display: flex;
+   display: flex;
 
     align-items: center;
 
     justify-content: center;
 
-    height: 100vh;
+  
     
 }
 
