@@ -11,12 +11,36 @@
 
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/cadastro-cliente.css">
+    <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="./css/footer.css">
     
     <title>Cadastro de Cliente</title>
     
 </head>
 
 <body>
+    
+    <nav>
+        <img src="assets/nav/logo-sapataria-branco.png" alt=" logo sapato branco ">
+
+       
+
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="catalog.html">Catálogo</a></li>
+            <li><a href="about-us.html">Sobre-Nós</a></li>
+            <li><a href="contact.html">Contato</a></li>
+            <li><a href="login.html"><i class="fa-regular fa-user"></i></a></li> 
+        </ul>
+
+        
+
+    </nav>
+
+
+<main>
+
+    <section class="container-cadastro">
     <div class="box">
 
         <div class="img-box">
@@ -34,13 +58,13 @@
                 </div>
 
                 <div class="input-group">
-                    <label for="nome"> Data de Nascimento</label>
-                    <input type="text" id="Data" placeholder="xx/xx/xxxx" required>
+                    <label for="Data"> Data de Nascimento</label>
+                    <input type="date" id="Data" placeholder="xx/xx/xxxx" required>
                 </div>
 
                 <div class="input-group">
-                    <label for="nome"> CPF</label>
-                    <input type="text" id="Data" placeholder="Digite seu CEP" required>
+                    <label for="CPF"> CPF</label>
+                    <input type="number" id="CPF" placeholder="Digite seu CPF" required>
                 </div>
 
                 <div class="input-group">
@@ -55,12 +79,12 @@
 
                 <div class="input-group w50">
                     <label for="senhaUsuario">Senha: </label>
-                    <input id="senhaUsuario" type="password" autocomplete="current-password" placeholder="Digite sua senha" required>
+                    <input type="password" id="senhaUsuario"  autocomplete="current-password" placeholder="Digite sua senha" required>
                 </div>
 
                 <div class="input-group w50">
                     <label for="ConfirmarSenha">Confirmar Senha</label>
-                    <input type="ConfirmarSenha" id="password" autocomplete="off" placeholder="Confirme a senha" required>
+                    <input type="password" id="password" autocomplete="off" placeholder="Confirme a senha" required>
                 </div>
 
                 <div class="input-group">
@@ -70,9 +94,58 @@
             </form>
         </div>
     </div>
-    
-    <script type="text/javascript" src="scripts/client.js"> </script>
+
+</main>
+</section>
+
+<footer class="rodape">
+
+    <section class="menu-rodape">
+
+        <ul class="footer-itens">
+            <li><a href="index.html"> Volta ao topo </a> </li>
+            <li><a href="catalog.html"> Catálogo</a></li>
+            <li><a href="about-us.html"> Sobre-nós</a></li>
+            <li><a href="contact"> Contato</a></li>
+        </ul>
+
+        </div>
+        <div class="social-itens">
+            <p>Redes Sociais</p>
+            <div>
+                <img src="./assets/footer/Gmail.svg">
+                <img src="./assets/footer/Instagram.svg">
+                <img src="./assets/footer/Whatsapp.svg">
+            </div>
+        </div>
+        <div class="payment-logos">
+            <p>Formas de pagamento</p>
+            <div>
+                <img src="./assets/footer/Pix 10801080.svg">
+                <img src="./assets/footer/mc_vrt_pos.svg">
+                <img src="./assets/footer/expresso-americano.svg">
+            </div>
+            <div class="security">
+                <p>Compra segura</p>
+                <img src="">
+            </div>
+        </div>
+        <address class="adress-style">
+            <p>Rua Forte Do Leme, 52<br>
+                Jd Santa Adélia<br>
+                São Paulo-SP<br>
+                (11)5581-5581 </p>
+        </address>
+    </section>
+
    
+   
+    <div class="copyrigth">
+        <p>Copyrigth by Sapataria Arnaldo</p>
+        <p>Desenvolvido por CouroLab</p>
+    </div>
+</footer>
+  <script type="text/javascript" src="scripts/client.js"> </script>
 </body>
 
 </html>
