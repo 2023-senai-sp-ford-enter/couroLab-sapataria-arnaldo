@@ -33,11 +33,13 @@ header {
     font-size: 70pt;
     color: #f1f1f1;
     font-weight: 600;
+    width: 30px;
 
 }
-.title-banner>p {
+.title-banner p {
     color: #f1f1f1da;
     font-size: 13pt;
+    text-align: justify;
 }
 
 header>figure {
@@ -93,18 +95,20 @@ html{
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
-    align-items: center;
     padding: 50px 0px;
+    text-align: justify;
 }
 
 .filosofia div {
     width: 80%;
+    margin: auto;
 }
 
 .filosofia>div>h1 {
     font-family: "Lato";
     font-weight: bold;
     font-size: 20pt;
+    justify-content: center;
 }
 
 .filosofia>div>p {
@@ -112,7 +116,7 @@ html{
     font-weight: 200;
     font-size: 15pt;
     margin-top: 1.5rem;
-    margin: 1.0rem;
+    margin: 1.2rem;
 }
 
 
@@ -142,15 +146,16 @@ html{
 }
 @media screen and (max-width: 570px) {
     .title-banner>p {
-        font-size: 9pt;
+        font-size: 15pt;
+        ;
     }
 }
 @media screen and (max-width: 435px) {
     .title-banner>h1 {
-        font-size: 45pt;
+        font-size: 11pt;
     }
     .title-banner>p {
-        font-size: 7pt;
+        font-size: 12pt;
     }
 }
 
