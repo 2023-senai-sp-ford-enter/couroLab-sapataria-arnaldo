@@ -92,7 +92,7 @@ main {
 .container-login {
   display: flex;
   flex-direction: column;
-  padding: 20px;
+  padding: 80px;
 }
 
 /* Alinhamento da box de login ao centro da tela */
