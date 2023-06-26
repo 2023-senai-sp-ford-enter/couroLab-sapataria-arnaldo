@@ -7,13 +7,6 @@
     font-family: 'Ysabeau';
 }
 
-body{
-    font-family: 'Ysabeau';
-    background-color: white;
-   
-}
-
-
 main {
     display: flex;
     align-items: center;
