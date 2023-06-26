@@ -6,6 +6,36 @@ body {
     display: flex;
     flex-direction: column;
  }
+/******AQUI COMEÇA ESTILIZAÇÃO DO SUB-MENU DO CATALOGO*****/
+ .sub-navbar{
+    background-color: #753f1b;
+    width: 500px;
+    padding: 15px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    transition: all 300ms;
+    
+ }
+
+ .sub-navbar ul{
+    display:flex;
+    justify-content: space-around;
+    list-style: none;
+    font-size: 25px;
+ }
+
+ .sub-navbar li>a {
+    display:flex;
+    justify-content: space-around;
+ }
+
+ [data-animation="animation"].animation {
+    position: fixed;
+    top: 40px;
+}
 
 .product-title{
     margin-top: 100px;
@@ -94,14 +124,14 @@ body {
     align-items: flex-end;
 }
 
-.containerCardImg>img {
+.containerCardImg img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 0.5rem;
 }
 
-.containerCardImg>img {
+.containerCardImg img {
     object-position: bottom;
 }
 
@@ -113,13 +143,13 @@ body {
     justify-content: space-between;
     align-items: center;
 }
-.conteudoCard>h1 {
+.conteudoCard h1 {
     width: 50%;
     font-size: 18px;   
     color: #ffffff;
 }
 
-.conteudoCard>p {
+.conteudoCard p {
     font-size: 18px;   
     color: #ffffff;
     
