@@ -74,6 +74,7 @@ body {
 input::placeholder {
     color: rgb(184, 184, 184);
     text-indent: 5px;
+    font-family: 'Ysabeau';
   }
 
 
