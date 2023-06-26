@@ -2,7 +2,7 @@
 
 /* --CONFIGURAÇÕES DO MENU DE NAVEGAÇÃO-- */
 
-nav {
+.navbar {
   height: 105px;
   background-color: #753f1b;
   display: flex;
@@ -16,14 +16,14 @@ nav {
 
 /* --Tamanho da logo-- */
 
-nav>img {
+.navbar img {
   height: 95%;
 
 }
 
 /* --Espaçamento do menu-- */
 
-nav>ul {
+.navbar  ul {
   display: flex;
   justify-content: space-between;
   width: 700px;
@@ -32,7 +32,7 @@ nav>ul {
 
 /* --Menu em letras maiúsculas-- */
 
-nav>ul>li {
+.navbar >ul>li {
   font-size: 25px;
   text-transform: uppercase;
 
@@ -40,7 +40,7 @@ nav>ul>li {
 
 /* --Cor do menu-- */
 
-nav>ul>li>a {
+.navbar>ul>li>a {
   color: #f1f1f1;
   text-decoration: none;
   justify-content: end;
@@ -74,43 +74,43 @@ ul {
 /* Responsividade */
 
 @media screen and (max-width: 800px) {
-  nav>img {
+  .navbar img {
     height: 88%;
   }
-  nav>ul {
+  .navbar ul {
     width: 450px;
   }
-  nav>ul>li {
+  .navbar>ul>li {
     font-size: 20px;
   }
 }
 @media screen and (max-width: 670px) {
-  nav>ul {
+  .navbar ul {
     width: 350px;
   }
-  nav>ul>li {
+  .navbar>ul>li {
     font-size: 16px;
   }
 }
 @media screen and (max-width: 570px) {
-  nav>img {
+  .navbar img {
     height: 55%;
   }
-  nav>ul {
+  .navbar ul {
     width: 250px;
   }
-  nav>ul>li {
+  .navbar>ul>li {
     font-size: 12px;
   }
 }
 @media screen and (max-width: 435px) {
-  nav>img {
+  .navbar img {
     height: 52%;
   }
-  nav>ul {
+  .navbar ul {
     width: 230px;
   }
-  nav>ul>li {
+  .navbar>ul>li {
     font-size: 10px;
   }
 }
@@ -120,7 +120,7 @@ ul {
 
 /* --Tamanho do ícone login-- */
 
-nav>ul>li>a>i { 
+.navbar>ul>li>a>i { 
   font-size: 30px;
 
 }
