@@ -10,7 +10,6 @@
 body {
     color: #84533E;
     background-color: #f1f1f1;
-    font-family: "Lato", monospace;
     font-family: "Ysabeau";
     font-weight: 200;
     font-size: 15pt;
@@ -75,9 +74,8 @@ body {
 input::placeholder {
     color: rgb(184, 184, 184);
     text-indent: 5px;
+    font-family: 'Ysabeau';
   }
-
-
 
 .form-image label {
     margin-bottom: 3px; /* pequenos espaçamentos na vertical */

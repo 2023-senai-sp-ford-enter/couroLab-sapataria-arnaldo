@@ -200,9 +200,10 @@ main {
 
 }
 
-.card-content-area ::placeholder {
+input::placeholder {
     color:#f1f1f1;
     opacity: 0.5;
+    font-family: 'Ysabeau';
 }
 
 .card-footer {
