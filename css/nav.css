@@ -3,7 +3,7 @@
 /* --CONFIGURAÇÕES DO MENU DE NAVEGAÇÃO-- */
 
 nav {
-  height: 105px;
+  height: 90px;
   background-color: #753f1b;
   display: flex;
   align-items: center;
@@ -13,6 +13,24 @@ nav {
   padding: 0px 50px;
 
 }
+
+/* --Formatação da logo-- */
+nav > a {
+
+  display:inline-block;
+
+  height:80%;
+
+}
+
+/* --Formatação da logo-- */
+
+nav > a > img {
+
+   height:100%;
+
+}
+ 
 
 /* --Tamanho da logo-- */
 
@@ -53,6 +71,7 @@ nav>ul>li>a {
   color: #ffffff;
   font-size: 15px;
   margin-top: 8px;
+  display: inline-block;
 
 }
 
