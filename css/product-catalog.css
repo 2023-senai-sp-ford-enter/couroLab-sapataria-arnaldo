@@ -13,7 +13,7 @@ body {
     padding: 15px;
     margin-top: 20px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     
     transition: all 300ms;
@@ -22,20 +22,21 @@ body {
 
  .sub-navbar ul{
     display:flex;
-    justify-content: space-around;
-    list-style: none;
+    justify-content: space-around;  
+    width: 700px; 
     font-size: 25px;
  }
 
- .sub-navbar li>a {
-    display:flex;
-    justify-content: space-around;
+.sub-navbar li>a {
+    color: #f1f1f1;
+    text-decoration: none;
+    font-size: 25px;
  }
 
- [data-animation="animation"].animation {
+ /* [data-animation="animation"].animation {
     position: fixed;
     top: 40px;
-}
+}  */
 
 .product-title{
     margin-top: 100px;
