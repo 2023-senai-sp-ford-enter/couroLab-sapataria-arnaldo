@@ -8,13 +8,11 @@
     grid-template-columns: 10% 1.5fr 2% 1fr 10%;
     /*serve para criar colunas na pagina*/
     margin-bottom: 30px;
-
 }
 
 .about-us>div:first-child {
     grid-column: 2;
     align-self: center;
-
 }
 
 .titlle-page {
