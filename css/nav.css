@@ -125,14 +125,6 @@ nav>ul>li>a>i {
 
 }
 
-/* aqui começa o efeito que muda os texts do catalogo */
-nav>ul>li>a{
-  transition: all 0,5s;
-  cursor: pointer;
-}
 
-nav>ul>li>a:hover{
-  filter: drop-shadow(15px 10px 5px rgba(228, 143, 104, 0.747));
-}
 
-/* aqui termina o efeito drop-shadow*/
+  
