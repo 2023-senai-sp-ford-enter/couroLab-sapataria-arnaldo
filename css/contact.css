@@ -14,7 +14,13 @@ body {
     font-family: "Ysabeau";
     font-size: 15pt;
 }
-
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*min-height: calc(100vh - 10px);*/
+    padding: 90px;
+}
 
 .container {
     display: flex;
