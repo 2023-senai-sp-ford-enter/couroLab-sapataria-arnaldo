@@ -87,7 +87,7 @@ main {
   align-items: center;
   justify-content: center;
   min-height: calc(100vh - px);
-  padding: 50px;
+  padding: 5px;
 }
 .container-login {
   display: flex;

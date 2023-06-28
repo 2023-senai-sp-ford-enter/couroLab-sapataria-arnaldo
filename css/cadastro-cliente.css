@@ -18,7 +18,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 50px;
+   padding: 30px;
     min-height: calc(100vh - 223.66px);
 
 }
@@ -26,8 +26,8 @@ main {
 .container-cadastro {
 
     display: flex;
-    flex-direction: column;
-
+   /flex-direction: column;
+    
 }
 .w50{
     width: 50%;
