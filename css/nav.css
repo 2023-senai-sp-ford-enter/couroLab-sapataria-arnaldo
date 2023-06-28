@@ -89,6 +89,14 @@ ul {
 
 }
 
+/* --Tamanho do ícone login-- */
+
+nav>ul>li>a>i { 
+  font-size: 30px;
+
+}
+
+
 
 /* Responsividade */
 
@@ -137,12 +145,6 @@ ul {
 
 /* final responsividade nav */
 
-/* --Tamanho do ícone login-- */
-
-nav>ul>li>a>i { 
-  font-size: 30px;
-
-}
 
 
 
