@@ -7,6 +7,10 @@ body {
     flex-direction: column;
  }
 /******AQUI COMEÇA ESTILIZAÇÃO DO SUB-MENU DO CATALOGO*****/
+.containerSubNavBar{
+    display: flex;
+    justify-content: center;
+}
  .sub-navbar{
     background-color: #753f1b;
     width: 500px;
@@ -15,9 +19,22 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+    transition: transform .2s;
+    border-radius: 0.5rem;
+ }
+
+ .sub-navbar:hover{
     transition: all 300ms;
-    
+    transform: scale3d(1.03, 1.03, 1.6);
+    box-shadow: 0 0 10px #8f8d8d;
+
+ }
+
+ .sub-navbar ul li:hover{
+    scale: 1.08;
+ }
+ .sub-navbar ul li{
+    transition: all 500ms;
  }
 
  .sub-navbar ul{
@@ -25,18 +42,41 @@ body {
     justify-content: space-around;  
     width: 700px; 
     font-size: 25px;
+    transition: all 500ms;
+    
  }
 
-.sub-navbar li>a {
+.sub-navbar a {
     color: #f1f1f1;
     text-decoration: none;
     font-size: 25px;
+    
  }
 
- /* [data-animation="animation"].animation {
+ [data-animation="animation"].animation {
     position: fixed;
     top: 40px;
-}  */
+} 
+
+[data-animation="btn"].btn {
+    position: fixed;
+    top: 120px;
+    left: 48%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: all 500ms;
+}
+
+
+.setinha{
+    display: flex;
+    justify-content: flex-end;
+    padding:  0px 80px; 
+    border: none;
+
+}
 
 .product-title{
     margin-top: 100px;
