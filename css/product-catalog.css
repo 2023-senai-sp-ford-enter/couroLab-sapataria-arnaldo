@@ -6,6 +6,93 @@ body {
     display: flex;
     flex-direction: column;
  }
+/******AQUI COMEÇA ESTILIZAÇÃO DO SUB-MENU DO CATALOGO*****/
+.containerSubNavBar{
+    display: flex;
+    justify-content: center;
+}
+ .sub-navbar{
+    background-color: #753f1b;
+    width: 500px;
+    padding: 15px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: transform .2s;
+    border-radius: 0.5rem;
+    position: fixed;
+ }
+
+ .sub-navbar:hover{
+    transition: all 300ms;
+    transform: scale3d(1.03, 1.03, 1.6);
+    box-shadow: 0 0 10px #8f8d8d;
+
+ }
+
+ .sub-navbar ul li:hover{
+    scale: 1.08;
+ }
+ .sub-navbar ul li{
+    transition: all 500ms;
+ }
+
+ .sub-navbar ul{
+    display:flex;
+    justify-content: space-around;  
+    width: 700px; 
+    font-size: 25px;
+    transition: all 500ms;
+    
+ }
+
+.sub-navbar a {
+    color: #f1f1f1;
+    text-decoration: none;
+    font-size: 25px;
+    
+ }
+
+ [data-animation="animation"].animation {
+    position: fixed;
+    top: 40px;
+} 
+
+[data-animation="btn"].btn {
+    position: fixed;
+    top: 120px;
+    left: 48%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: all 500ms;
+}
+
+.setinha{
+    background: transparent; /*fundo da setinha transparente*/
+    display: flex;
+    justify-content: flex-end;
+    padding:  0px 80px; 
+    border: none;
+    position: fixed;
+    right: 30px;
+    top: 180px;
+    
+
+}
+
+.setinha:hover{
+    transition: all 300ms;
+    transform: scale3d(1.03, 1.03, 1.6); 
+    scale: 1.08;
+
+}
+
+html{
+    scroll-behavior: smooth; /* --Ação de rolagem da seta-- */
+}
 
 .product-title{
     margin-top: 100px;
@@ -94,14 +181,14 @@ body {
     align-items: flex-end;
 }
 
-.containerCardImg>img {
+.containerCardImg img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 0.5rem;
 }
 
-.containerCardImg>img {
+.containerCardImg img {
     object-position: bottom;
 }
 
@@ -113,13 +200,13 @@ body {
     justify-content: space-between;
     align-items: center;
 }
-.conteudoCard>h1 {
+.conteudoCard h1 {
     width: 50%;
     font-size: 18px;   
     color: #ffffff;
 }
 
-.conteudoCard>p {
+.conteudoCard p {
     font-size: 18px;   
     color: #ffffff;
     
