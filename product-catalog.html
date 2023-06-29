@@ -23,9 +23,11 @@
 
 <body>
 <!----------------------- AQUI COMEÇA O NAVBAR --------------------->
-    <header>
-        <nav>
-            <img src="assets/nav/logo-sapataria-branco.png" alt="icone sapato branco">
+  
+    <header id="header" class="header">
+        <nav class="navbar">
+            <a href="index.html"><img src="assets/nav/logo-sapataria-branco opti.png" alt=" logo sapato branco "></a>
+  
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="catalog.html">Catálogo</a></li>
@@ -34,10 +36,10 @@
 
                 <li>
                     <a href="login.html">
-                    <div class="div-login">
-                    <i class="fa-regular fa-user" style="color: #ffffff;"></i>
-                    <h2 id="login-btn"> Login </h2>
-                    </div>
+                        <div class="div-login">
+                            <i class="fa-regular fa-user" style="color: #ffffff;"></i>
+                            <h2 id="login-btn"> Login </h2>
+                        </div>
                     </a>
                 </li>
                 
@@ -46,10 +48,26 @@
     </header>    
 <!----------------------- AQUI TERMINA O NAVBAR --------------------->    
     <main>
-<!-- AQUI COMEÇA OS PRODUTOS MASCULINOS -->
+<!----------------------- AQUI INICIA O SUB-NAVBAR ------------------>  
+    <div class="containerSubNavBar">
+        <nav class="sub-navbar" id="subNavbar" data-animation="animation">
+            <ul>
+                <li><a href="#sectionSapatosMasculinos">Masculinos</a></li>
+                <li><a href="#sectionSapatosFemininos">Femininos</a></li>
+                <li><a href="#sectionBolsas">Bolsas</a></li>
+                <li><a href="#sectionAcessorios">Acessórios</a></li>
+            </ul>
+        </nav>
+    </div>    
+<!----------------------- AQUI INICIA O SUB-NAVBAR ------------------->  
+<!---------------- AQUI COMEÇA OS PRODUTOS MASCULINOS ---------------->
         <div class="product-title" id="sectionSapatosMasculino">
             <h1>Sapatos Masculinos > Coleção 2023</h1>
         </div>
+
+        <button class="setinha">
+            <a href="#header"><img src="./assets/icons/setinha-up-2.svg"alt="setinha"></a>
+        </button>
 
         <section class="secProduto" name="produto">
 
@@ -377,7 +395,7 @@
 <!-- AQUI COMEÇA OS PRODUTOS ACESSORIOS -->
 
         <div class="product-title" id="sectionAcessorios">
-            <h1> Acessorios > Coleção 2023</h1>
+            <h1> Acessórios > Coleção 2023</h1>
         </div>
 
         <section class="secProduto" name="produto">
@@ -535,6 +553,7 @@
 
         </footer>
 <!-------------------- AQUI TERMINA O FOOTER ------------------------->
-   
+
+        <script type="text/javascript" src="scripts/product-catalog.js"></script>
 </body>
 </html>

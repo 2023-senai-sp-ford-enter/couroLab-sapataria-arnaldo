@@ -2,8 +2,8 @@
 
 /* --CONFIGURAÇÕES DO MENU DE NAVEGAÇÃO-- */
 
-nav {
-  height: 105px;
+.navbar {
+  height: 90px;
   background-color: #753f1b;
   display: flex;
   align-items: center;
@@ -14,16 +14,34 @@ nav {
 
 }
 
+/* --Formatação da logo-- */
+nav > a {
+
+  display:inline-block;
+
+  height:80%;
+
+}
+
+/* --Formatação da logo-- */
+
+nav > a > img {
+
+   height:100%;
+
+}
+ 
+
 /* --Tamanho da logo-- */
 
-nav>img {
-  height: 95%;
+.navbar img {
+  height: 80%;
 
 }
 
 /* --Espaçamento do menu-- */
 
-nav>ul {
+.navbar  ul {
   display: flex;
   justify-content: space-between;
   width: 700px;
@@ -32,7 +50,7 @@ nav>ul {
 
 /* --Menu em letras maiúsculas-- */
 
-nav>ul>li {
+.navbar >ul>li {
   font-size: 25px;
   text-transform: uppercase;
 
@@ -40,7 +58,7 @@ nav>ul>li {
 
 /* --Cor do menu-- */
 
-nav>ul>li>a {
+.navbar>ul>li>a {
   color: #f1f1f1;
   text-decoration: none;
   justify-content: end;
@@ -53,6 +71,7 @@ nav>ul>li>a {
   color: #ffffff;
   font-size: 15px;
   margin-top: 8px;
+  display: inline-block;
 
 }
 
@@ -70,47 +89,88 @@ ul {
 
 }
 
+/* --Tamanho do ícone login-- */
 
+.navbar>ul>li>a>i { 
+  font-size: 30px;
+
+}
+
+
+/* --Tamanho do ícone login-- */
+
+.navbar>ul>li>a>i { 
+  font-size: 30px;
+
+}
+
+
+/* --Tamanho do ícone login-- */
+
+.navbar>ul>li>a>i { 
+  font-size: 30px;
+
+}
+
+/* efeito navbar */
+
+.navbar{
+  transition: transform .2s;
+}
+
+.navbar:hover{
+  transition: 300ms; 
+  transform: scale3d(1.03, 1.03, 1.6);
+  box-shadow: 0 0 10px #8f8d8d; 
+}
+
+.navbar ul li:hover{
+  scale: 1.08;
+}
+
+.navbar ul li {
+  transition: all 500ms;
+}
 /* Responsividade */
 
 @media screen and (max-width: 800px) {
-  nav>img {
+  .navbar img {
     height: 88%;
   }
-  nav>ul {
+  .navbar ul {
     width: 450px;
   }
-  nav>ul>li {
+  .navbar>ul>li {
     font-size: 20px;
   }
 }
 @media screen and (max-width: 670px) {
-  nav>ul {
+  .navbar ul {
     width: 350px;
   }
-  nav>ul>li {
+  .navbar>ul>li {
     font-size: 16px;
   }
 }
 @media screen and (max-width: 570px) {
-  nav>img {
+  .navbar img {
     height: 55%;
   }
-  nav>ul {
+  .navbar ul {
     width: 250px;
   }
-  nav>ul>li {
+  .navbar>ul>li {
     font-size: 12px;
   }
 }
 @media screen and (max-width: 435px) {
-  nav>img {
+  .navbar img {
     height: 52%;
   }
-  nav>ul {
+  .navbar ul {
     width: 230px;
   }
-  nav>ul>li {
+  .navbar>ul>li {
     font-size: 10px;
   }
 }
@@ -118,12 +178,6 @@ ul {
 
 /* final responsividade nav */
 
-/* --Tamanho do ícone login-- */
-
-nav>ul>li>a>i { 
-  font-size: 30px;
-
-}
 
 
 
