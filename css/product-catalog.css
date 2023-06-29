@@ -1,10 +1,12 @@
 body {
     font-family: "Ysabeau";
- }
+    min-width: 100vw;
+}
 
  main {
     display: flex;
     flex-direction: column;
+    width: 100vw;
  }
 /******AQUI COMEÇA ESTILIZAÇÃO DO SUB-MENU DO CATALOGO*****/
 .containerSubNavBar{
@@ -229,3 +231,33 @@ html{
 
 
   /*  FIM ESTILIZAÇÃO CARD */
+
+  /* RESPONSIVIDADE */
+@media only screen and (min-width: 390px) and (max-width:844){
+    .secProduto{
+        padding: 50px;
+
+    }
+    .containerCard{
+        width: 40%;
+        height: 40%;
+        
+    }
+    
+    .card card1{
+        width: 45%;
+    }
+    .containerCardImg{
+        width: 45%;
+        height: 45%;
+    }
+
+    .sub-navbar ul a{
+        width: 200px;
+        font-size: 15px ;
+    }
+
+    .containerCardImg img {
+        width: 50px;
+    }
+}
