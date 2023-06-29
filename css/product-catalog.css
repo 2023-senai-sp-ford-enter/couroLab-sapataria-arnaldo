@@ -233,7 +233,7 @@ html{
   /*  FIM ESTILIZAÇÃO CARD */
 
   /* RESPONSIVIDADE */
-@media only screen and (min-width: 390px) and (max-width:844){
+/* @media only screen and (min-width: 390px) and (max-width:844){
     .secProduto{
         padding: 50px;
 
@@ -260,4 +260,36 @@ html{
     .containerCardImg img {
         width: 50px;
     }
+
+    .product-title h1{
+        font-size: 60pt;
+    }
+} */
+
+@media (max-width:420px){
+
+    .secProduto .product-title .sub-navbar {
+        width: 90%;
+    }
+
+    .secProduto .containerCard .contentCard,
+    .secProduto .containerCard .conteudoCard,
+    .secProduto .containerCard .conteudoCard {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        margin: 180px 0;
+    }
+
+    .secProduto .containerCard .contentCard .conteudoCard,
+    .secProduto .containerCard .contentCard .conteudoCard,
+    .secProduto .containerCard.contentCard .conteudoCard {
+        margin: 20px;
+    }
+
+    .setinha {
+        bottom: 10px;
+    }
+
+
 }
