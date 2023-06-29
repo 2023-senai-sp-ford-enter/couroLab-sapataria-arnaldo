@@ -21,6 +21,7 @@ body {
     align-items: center;
     transition: transform .2s;
     border-radius: 0.5rem;
+    position: fixed;
  }
 
  .sub-navbar:hover{
@@ -69,13 +70,28 @@ body {
     transition: all 500ms;
 }
 
-
 .setinha{
+    background: transparent; /*fundo da setinha transparente*/
     display: flex;
     justify-content: flex-end;
     padding:  0px 80px; 
     border: none;
+    position: fixed;
+    right: 30px;
+    top: 180px;
+    
 
+}
+
+.setinha:hover{
+    transition: all 300ms;
+    transform: scale3d(1.03, 1.03, 1.6); 
+    scale: 1.08;
+
+}
+
+html{
+    scroll-behavior: smooth; /* --Ação de rolagem da seta-- */
 }
 
 .product-title{

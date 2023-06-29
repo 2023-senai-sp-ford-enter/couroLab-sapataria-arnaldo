@@ -1,3 +1,5 @@
+
+//Função para o menu acompanhar o rolamento da página 
 const subNavbar = document.getElementById('subNavbar');
 const btnTop = document.getElementById('btn-top');
 
@@ -14,3 +16,8 @@ function subNavbarElement (posicao) {
 document.addEventListener('scroll', () => {
     subNavbarElement(window.scrollY);
 });
+
+//Função para o menu acompanhar o rolamento da página 
+
+
+
