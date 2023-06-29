@@ -86,13 +86,13 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: calc(100vh - px);
-  padding: 50px;
+  /*min-height: calc(100vh - 10px);*/
+  padding: 5px;
 }
 .container-login {
   display: flex;
   flex-direction: column;
-  padding: 20px;
+  padding: 80px;
 }
 
 /* Alinhamento da box de login ao centro da tela */

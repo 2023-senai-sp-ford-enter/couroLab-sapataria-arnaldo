@@ -12,10 +12,15 @@ body {
     color: #84533E;
     background-color: #f1f1f1;
     font-family: "Ysabeau";
-    font-weight: 200;
     font-size: 15pt;
 }
-
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*min-height: calc(100vh - 10px);*/
+    padding: 90px;
+}
 
 .container {
     display: flex;
