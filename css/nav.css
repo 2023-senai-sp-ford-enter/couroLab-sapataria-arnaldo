@@ -3,7 +3,7 @@
 /* --CONFIGURAÇÕES DO MENU DE NAVEGAÇÃO-- */
 
 .navbar {
-  height: 105px;
+  height: 90px;
   background-color: #753f1b;
   display: flex;
   align-items: center;
@@ -14,10 +14,28 @@
 
 }
 
+/* --Formatação da logo-- */
+nav > a {
+
+  display:inline-block;
+
+  height:80%;
+
+}
+
+/* --Formatação da logo-- */
+
+nav > a > img {
+
+   height:100%;
+
+}
+ 
+
 /* --Tamanho da logo-- */
 
 .navbar img {
-  height: 95%;
+  height: 80%;
 
 }
 
@@ -53,6 +71,7 @@
   color: #ffffff;
   font-size: 15px;
   margin-top: 8px;
+  display: inline-block;
 
 }
 
@@ -69,6 +88,22 @@ ul {
   text-transform:capitalize;
 
 }
+
+/* --Tamanho do ícone login-- */
+
+.navbar>ul>li>a>i { 
+  font-size: 30px;
+
+}
+
+
+/* --Tamanho do ícone login-- */
+
+.navbar>ul>li>a>i { 
+  font-size: 30px;
+
+}
+
 
 /* --Tamanho do ícone login-- */
 
@@ -142,7 +177,6 @@ ul {
 
 
 /* final responsividade nav */
-
 
 
 
