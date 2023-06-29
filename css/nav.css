@@ -70,7 +70,32 @@ ul {
 
 }
 
+/* --Tamanho do ícone login-- */
 
+.navbar>ul>li>a>i { 
+  font-size: 30px;
+
+}
+
+/* efeito navbar */
+
+.navbar{
+  transition: transform .2s;
+}
+
+.navbar:hover{
+  transition: 300ms; 
+  transform: scale3d(1.03, 1.03, 1.6);
+  box-shadow: 0 0 10px #8f8d8d; 
+}
+
+.navbar ul li:hover{
+  scale: 1.08;
+}
+
+.navbar ul li {
+  transition: all 500ms;
+}
 /* Responsividade */
 
 @media screen and (max-width: 800px) {
@@ -118,12 +143,7 @@ ul {
 
 /* final responsividade nav */
 
-/* --Tamanho do ícone login-- */
 
-.navbar>ul>li>a>i { 
-  font-size: 30px;
-
-}
 
 
 
