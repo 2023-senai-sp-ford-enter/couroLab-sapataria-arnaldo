@@ -2,11 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Ysabeau:ital,wght@0,1;0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,1;1,100;1,300;1,400;1,500;1,600;1,700&display=swap');
 
 
-* { 
-    box-sizing: border-box; /* formatação do css para alinhamento da página, caso não utilize o reset.css, colocar padding 0 e margin 0*/
+* {
+    box-sizing: border-box;
+    /* formatação do css para alinhamento da página, caso não utilize o reset.css, colocar padding 0 e margin 0*/
 
 
 }
+
 body {
     color: #84533E;
     background-color: #f1f1f1;
@@ -20,6 +22,7 @@ body {
     display: flex;
     flex-direction: column;
 }
+
 .container>div:first-child {
     width: 80%;
     height: 80px;
@@ -30,14 +33,15 @@ body {
     justify-content: center;
     gap: 8px;
 
-    
+
 }
 
 
-.container>div:first-child>h1{
+.container>div:first-child>h1 {
     font-size: 48px;
-    font-weight: 600;  
+    font-weight: 600;
 }
+
 .container>div:first-child>p {
     text-indent: 5px;
 }
@@ -48,22 +52,26 @@ body {
 .form-image {
     height: calc(100vh - 159px - 244.66px);
     display: grid;
-    grid-template-columns: 10% 1fr 1% 1fr 10%; /* criar colunas e definir tamanhos */
+    grid-template-columns: 10% 1fr 1% 1fr 10%;
+    /* criar colunas e definir tamanhos */
     width: 100%;
-  
+
 }
 
 
 .form-image>form {
-    grid-column: 2;/* definir em qual coluna a classe vai ficar */
+    grid-column: 2;
+    /* definir em qual coluna a classe vai ficar */
     display: flex;
     flex-direction: column;
     width: 70%;
     height: 85%;
     justify-content: space-between;
-    align-self: center; /* se alinha referente ao seu container na vertical */
-    justify-self: center;/* se alinha referente ao seu container na horizontal*/
-    
+    align-self: center;
+    /* se alinha referente ao seu container na vertical */
+    justify-self: center;
+    /* se alinha referente ao seu container na horizontal*/
+
 }
 
 .form-image>form>div {
@@ -75,10 +83,11 @@ input::placeholder {
     color: rgb(184, 184, 184);
     text-indent: 5px;
     font-family: 'Ysabeau';
-  }
+}
 
 .form-image label {
-    margin-bottom: 3px; /* pequenos espaçamentos na vertical */
+    margin-bottom: 3px;
+    /* pequenos espaçamentos na vertical */
     width: 100%;
     text-transform: uppercase;
     font-weight: 600;
@@ -88,9 +97,12 @@ input::placeholder {
 .form-image input {
     width: 100%;
     height: 35px;
-    border: none; /* Deixar sem borda aparente */
-    border-bottom:1px solid #84533E; /* borda do botão */
-    outline: none; /* linha em torno do input */
+    border: none;
+    /* Deixar sem borda aparente */
+    border-bottom: 1px solid #84533E;
+    /* borda do botão */
+    outline: none;
+    /* linha em torno do input */
     /* altura da linha */
     text-indent: 5px;
     color: #492e22;
@@ -100,12 +112,14 @@ input::placeholder {
     width: 100%;
     height: 35px;
     font-size: 14px;
-    outline: none; /* linha em volta do elemnto */
+    outline: none;
+    /* linha em volta do elemnto */
     border: none;
-    border-bottom:1px solid #84533E;/* borda do botão */
+    border-bottom: 1px solid #84533E;
+    /* borda do botão */
     text-indent: 5px;
     color: #492e22;
-   
+
 }
 
 .form-image textarea {
@@ -116,6 +130,7 @@ input::placeholder {
     text-indent: 5px;
     color: #492e22;
 }
+
 .form-image textarea::placeholder {
     text-indent: 5px;
     color: rgb(184, 184, 184);
@@ -125,30 +140,35 @@ input::placeholder {
     width: 100px;
     height: 35px;
     border: none;
-    border-radius: 2px; /* borda da caixa */
+    border-radius: 2px;
+    /* borda da caixa */
     color: #f1f1f1;
-    background-color:#84533E;
-    cursor: pointer; /* mudar forma que cursor se comporta */
-    
+    background-color: #84533E;
+    cursor: pointer;
+    /* mudar forma que cursor se comporta */
+
 }
 
-.form-image button:hover { 
+.form-image button:hover {
     background-color: #9b634b;
 }
 
 
 .photo-shoemaker {
     grid-column: 4;
-    display: flex; /* definir em qual coluna a classe vai ficar */
+    display: flex;
+    /* definir em qual coluna a classe vai ficar */
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
     gap: 2%;
 }
-.photo-shoemaker>figure{
+
+.photo-shoemaker>figure {
     width: 90%;
     height: 70%;
 }
+
 .photo-shoemaker>figure>img {
     width: 100%;
     height: 100%;
@@ -157,8 +177,9 @@ input::placeholder {
 
 /* estilização de contato */
 
-
-
-
-
-
+/* inicio da responsividade */
+ /* responsividade menu */
+@media screen and (max-width: 900px) {
+    
+    
+}
