@@ -82,7 +82,13 @@ input::placeholder {
     color: rgb(184, 184, 184);
     text-indent: 5px;
     font-family: 'Ysabeau';
+    font-size: 16px;
   }
+
+  #message {
+    font-family: 'Ysabeau';
+    font-size: 16px;
+}
 
 .form-image label {
     margin-bottom: 3px; /* pequenos espaçamentos na vertical */
