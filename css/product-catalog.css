@@ -233,63 +233,32 @@ html{
   /*  FIM ESTILIZAÇÃO CARD */
 
   /* RESPONSIVIDADE */
-/* @media only screen and (min-width: 390px) and (max-width:844){
+@media screen and (max-width: 800px) {
     .secProduto{
-        padding: 50px;
+       gap: 1rem;
 
     }
     .containerCard{
-        width: 40%;
-        height: 40%;
+        margin-top: 4rem;
         
     }
-    
-    .card card1{
-        width: 45%;
+    .card{
+        width: auto;
     }
-    .containerCardImg{
-        width: 45%;
-        height: 45%;
-    }
-
-    .sub-navbar ul a{
-        width: 200px;
-        font-size: 15px ;
-    }
-
-    .containerCardImg img {
-        width: 50px;
-    }
-
-    .product-title h1{
-        font-size: 60pt;
-    }
-} */
-
-@media (max-width:420px){
-
-    .secProduto .product-title .sub-navbar {
-        width: 90%;
-    }
-
-    .secProduto .containerCard .contentCard,
-    .secProduto .containerCard .conteudoCard,
-    .secProduto .containerCard .conteudoCard {
-        display: flex;
-        flex-direction: column;
-        height: auto;
-        margin: 180px 0;
-    }
-
-    .secProduto .containerCard .contentCard .conteudoCard,
-    .secProduto .containerCard .contentCard .conteudoCard,
-    .secProduto .containerCard.contentCard .conteudoCard {
-        margin: 20px;
-    }
-
-    .setinha {
-        bottom: 10px;
-    }
+} 
+@media screen and (max-width: 670px){
 
 
 }
+
+@media screen and (max-width: 570px){
+
+
+}
+
+@media screen and (max-width: 435px){
+
+    
+}
+
+
