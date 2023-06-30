@@ -178,8 +178,41 @@ input::placeholder {
 /* estilização de contato */
 
 /* inicio da responsividade */
- /* responsividade menu */
-@media screen and (max-width: 900px) {
-    
-    
+/* responsividade menu */
+
+@media screen and (max-width: 800px) {
+
+}
+
+@media screen and (max-width: 670px) {
+
+}
+
+@media screen and (max-width: 570px) {
+
+}
+
+@media screen and (max-width: 435px) {
+
+    main {
+        margin-bottom: 3rem;
+    }
+
+    .form-image {
+        display: flex;
+        flex-direction: column;
+        margin: 3rem auto;
+        grid-template-columns: none;
+        height: auto;
+        
+    }
+
+    .form-image>form {
+        margin-bottom: 3rem;
+
+    }
+
+    .photo-shoemaker>figure>img {
+        width: 450px;
+    }
 }
