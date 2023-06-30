@@ -358,8 +358,8 @@ input::placeholder {
   top: 0;
   left: 0;
   right: 0
-  bottom:0;
-  background-size:cover;
+  bottom: 0;
+  background-size:cover ;
 }
 .backdrop{
   background-color: #f7f5f4;
@@ -383,8 +383,8 @@ input::placeholder {
 border:1px solid
 border-radius:50%;
 margin:0 auto;
-width:87px
-height:87px
+width:87px;
+height:87px;
 }
 .formulario.header.logo.logo-area{
   border: 1px solid#ccc;
@@ -399,12 +399,12 @@ height:87px
 /* fonte*/
 .formulario.header.logo.logo-area{
   background: #f1f1f1;
-  color: #753f1b;
+  color: #bca392;
   font-size: 14px;
   font-weight: bold;
 }
 .formulario.header.logo.red{
-  color: #753f1b;
+  color: #f0eae6;
 }
 /* input*/
 
@@ -420,4 +420,117 @@ height:87px
   font: size 20px;
   color: #9e9e99;
 }
-* --aqui termina responsividade--*
+.formulario #show-password{
+  cursor: pointer;
+}
+/*EXTRA*/
+.formulario.remenber{
+  margin-top: 15px;
+}
+.formulario.formulario.remenber a{
+  float: right;
+}
+.formulario.formulario.remenber span{
+  vertical-align: top;
+}
+/*botoes*/
+.formulario .btn{
+  cursor: pointer;
+  display: block;
+  border: 0;
+  height: 20px;
+  padding: 10px;
+  font-size: center;
+  transition: backgroun .3s;
+}
+.formulario .btn:focus{
+  outline: none;
+}
+.formulario .btn-login{
+  background: #3e311b;
+  color: #FFFFFF;
+  margin-top: 15px;
+  width: 100%;
+  height: 40px;
+}
+.formulario .btn-login:hover{
+  background: #1e6fb8;
+}
+.formulario .btn-registrar{
+  background: #dbdbdb;
+  color: #676464;
+  text-decoration: none;
+  margin-top: 5px;
+}
+.formulario .btn-registrar:hover{
+  background: #cdcdcd;
+}
+/*SEPARADOR*/
+.formulario .separator{
+  margin: 20px 0;
+  border-top: 1px solid #ccccc;
+  position:relative;
+}
+.formulario .separator-text{
+  display: block;
+  position: absolute;
+  top: -11px;
+  left: 50%;
+  margin-left: -22px;
+  padding: 0px 10px;
+  background: #FFFFFF;
+  color:#8a8a8a  
+}
+/*SOCIAL MIDIA LOGIN*/
+.formulario .btn-face{
+  background: #3b5998;
+  color: #FFFFFF;
+  margin-top: 5px;
+  text-decoration: none;
+  text-align: left;
+}
+.formulario .btn-face:hover{
+  background: #324b80;
+}
+.formulario .btn-glogle{
+  background: #ef0a0a;
+  color: #FFFFFF;
+  margin-top: 5px;
+  text-align: none;
+  text-align: left;
+}
+.formulario .brn-google:hover{
+  background: #d40909;
+}
+.formulario .btn-icone{
+  border-right: 1px solid #FFFFFF;
+  margin-right: 14px;
+  margin-top: -4px;
+  padding-right: 10px;
+  width: 25px;
+  font-size: 16x;
+  vertical-align: middle;
+}
+.formulario .socmed-login .bth span{
+  display: inline-block;
+  width:calc(100% - 55px);
+  text-align:center;
+}
+@media (max-width:261px){
+.xs-hidden{
+  display: none !important;
+ }
+}
+@media (min-width:262px){
+  .xs-show{
+    display: none !important;
+  }
+}
+/*ATRIBUIÇÃO*/
+.attrib{
+  text-align: center;
+  margin-top: 7px;
+  color: #aaa;
+  line-height: 25px;
+}
+/*-------------AQUI TERMINA RESPONSIFIDADE LOGIN----------------------------*/
