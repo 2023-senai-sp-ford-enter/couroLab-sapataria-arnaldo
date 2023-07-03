@@ -129,7 +129,6 @@
     
   }
 
-
   @media screen and (max-width: 670px){
 
 
@@ -148,7 +147,26 @@
   
   @media screen and (max-width: 435px){
    
+    .catalog-banner img {
+        height: 300px;
+        width: 100%;
+        object-position: 75%;
+        object-fit: cover;
 
+    }
+
+    .card {
+        height: 400px;
+       
+    }
+
+    .containerCardImg {
+        width: 80%;
+        height: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
 
 
   }
