@@ -242,9 +242,6 @@ html{
         margin-top: 4rem;
         
     }
-    .card{
-        width: auto;
-    }
 
     .product-title{
         font-size: 45px;
@@ -259,17 +256,38 @@ html{
         font-size: 35px;
     }
 
-   
-
+    .setinha{
+        right: 0;
+        padding: 0;
+    }
+        
 }
 
 @media screen and (max-width: 570px){
-
-
+    .product-title{
+        font-size: 30px;
+    }
+    .product-title::after{
+        margin-top: 30px;
+    }
 }
 
 @media screen and (max-width: 435px){
+    .product-title{
+        font-size: 20px;
+    }
 
+    .setinha img{
+        width: 30px;
+    }
+
+    .secProduto{
+        padding: 0;
+    }
+
+    .sub-navbar{
+        
+    }
     
 }
 
