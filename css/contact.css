@@ -146,13 +146,11 @@ input::placeholder {
     background-color: #84533E;
     cursor: pointer;
     /* mudar forma que cursor se comporta */
-
 }
 
 .form-image button:hover {
     background-color: #9b634b;
 }
-
 
 .photo-shoemaker {
     grid-column: 4;
@@ -181,15 +179,6 @@ input::placeholder {
 /* responsividade menu */
 
 @media screen and (max-width: 800px) {
-
-}
-
-@media screen and (max-width: 670px) {
-
-}
-
-@media screen and (max-width: 570px) {
-    /*responsividade /*
     main {
         margin-bottom: 3rem;
     }
@@ -198,21 +187,71 @@ input::placeholder {
         display: flex;
         flex-direction: column;
         margin: 3rem auto;
-        grid-template-columns: none;
         height: auto;
-        
+        grid-template-columns: none;
     }
 
     .form-image>form {
         margin-bottom: 3rem;
+    }
 
+    .photo-shoemaker>figure>img {
+        width: 765px;
+        padding-left: 40px;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    main {
+        margin-bottom: 3rem;
+    }
+
+    .form-image {
+        display: flex;
+        flex-direction: column;
+        margin: 3rem auto;
+        height: auto;
+        grid-template-columns: none;
+    }
+
+    .form-image>form {
+        margin-bottom: 3rem;
+    }
+
+    .photo-shoemaker>figure>img {
+        width: 665px;
+        padding-right: 35px;
+    }
+}
+
+.horario{
+    padding-left: 50px;
+    margin:15px;
+}
+
+@media screen and (max-width: 570px) {
+
+    main {
+        margin-bottom: 3rem;
+    }
+
+    .form-image {
+        display: flex;
+        flex-direction: column;
+        margin: 3rem auto;
+        height: auto;
+        grid-template-columns: none;
+        padding-left: 47px;
+    }
+
+    .form-image>form {
+        margin-bottom: 3rem;
     }
 
     .photo-shoemaker>figure>img {
         width: 485px;
+        padding-left: 50px;
     }
-}
-
 }
 
 @media screen and (max-width: 435px) {
@@ -225,17 +264,16 @@ input::placeholder {
         display: flex;
         flex-direction: column;
         margin: 3rem auto;
-        grid-template-columns: none;
         height: auto;
-        
+        grid-template-columns: none;
     }
 
     .form-image>form {
         margin-bottom: 3rem;
-
     }
 
     .photo-shoemaker>figure>img {
         width: 450px;
+        padding-left: 1px;
     }
 }
