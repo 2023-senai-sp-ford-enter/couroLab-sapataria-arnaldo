@@ -189,6 +189,29 @@ input::placeholder {
 }
 
 @media screen and (max-width: 570px) {
+    /*responsividade /*
+    main {
+        margin-bottom: 3rem;
+    }
+
+    .form-image {
+        display: flex;
+        flex-direction: column;
+        margin: 3rem auto;
+        grid-template-columns: none;
+        height: auto;
+        
+    }
+
+    .form-image>form {
+        margin-bottom: 3rem;
+
+    }
+
+    .photo-shoemaker>figure>img {
+        width: 485px;
+    }
+}
 
 }
 
