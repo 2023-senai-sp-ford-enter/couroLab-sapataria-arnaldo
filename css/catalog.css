@@ -96,3 +96,59 @@
     cursor: pointer;
 }
   /*  FIM ESTILIZAÇÃO CARD */
+
+  
+  /* --ÍNICIO RESPONSIVIDADE-- */
+
+  @media screen and (max-width: 800px) {
+
+    .catalog-banner img {
+        height: 300px;
+        width: 100%;
+        object-position: 75%;
+        object-fit: cover;
+
+    }
+
+    .secProduto {
+        flex-direction: column;
+        height: auto;
+        justify-content: center;
+
+    }
+
+    .containerCard { 
+        padding: 30px;
+        
+    }
+
+    .card {
+        height: 450px ;
+       
+    }
+    
+  }
+
+
+  @media screen and (max-width: 670px){
+
+
+
+  
+  }
+
+
+  @media screen and (max-width: 570px){
+
+
+
+  
+  }
+
+  
+  @media screen and (max-width: 435px){
+   
+
+
+
+  }
