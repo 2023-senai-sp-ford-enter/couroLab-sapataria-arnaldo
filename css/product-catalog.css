@@ -80,7 +80,7 @@ body {
     border: none;
     position: fixed;
     right: 30px;
-    top: 180px;
+    /* top: 180px; */
     
 
 }
@@ -125,7 +125,7 @@ html{
     background-color: #753f1b;
 }
 
-.bottom-design{
+.bottom-design{ /*linha marrom de design da pagina*/
     display: flex;
     justify-content: flex-end;
     background-color: #753f1b;
@@ -245,9 +245,24 @@ html{
     .card{
         width: auto;
     }
+
+    .product-title{
+        font-size: 45px;
+    }
+
+    /* .setinha{
+        top:300px
+    } */
 } 
 @media screen and (max-width: 670px){
+    .product-title{
+        font-size: 35px;
+    }
 
+    .setinha{
+       
+    }
+   
 
 }
 
