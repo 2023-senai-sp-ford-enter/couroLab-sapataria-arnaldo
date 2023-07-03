@@ -286,7 +286,15 @@ html{
     }
 
     .sub-navbar{
-        
+        width: 80%;
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 1pt;
+    }
+
+    .sub-navbar a{
+        font-size: 15pt;
+       
     }
     
 }
