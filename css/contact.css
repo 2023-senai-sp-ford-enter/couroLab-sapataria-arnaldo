@@ -199,6 +199,17 @@ input::placeholder {
         width: 765px;
         padding-left: 40px;
     }
+
+    .menu-rodape {
+        display: flex;
+       
+        font-size: 16px;
+        width: 100%;
+        height: 166px;
+        justify-content: space-evenly;
+        align-items:center;
+      }
+
 }
 
 @media screen and (max-width: 670px) {
@@ -228,6 +239,15 @@ input::placeholder {
     padding-left: 50px;
     margin:15px;
 }
+.menu-rodape {
+    display: flex;
+   
+    font-size: 15px;
+    width: 100%;
+    height: 20px;
+    justify-content: space-evenly;
+    align-items:center;
+  }
 
 @media screen and (max-width: 570px) {
 
@@ -252,6 +272,17 @@ input::placeholder {
         width: 485px;
         padding-left: 50px;
     }
+
+    .menu-rodape {
+        display: flex;
+       
+        font-size: 15px;
+        width: 100%;
+        height: 190px;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+
 }
 
 @media screen and (max-width: 435px) {

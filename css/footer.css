@@ -24,7 +24,9 @@
   margin: 0px 10px;
   width: 30%;
   display: flex;
-  align-items: center;
+ 
+  align-items:center;
+  
 }
 
 .menu-rodape a {
