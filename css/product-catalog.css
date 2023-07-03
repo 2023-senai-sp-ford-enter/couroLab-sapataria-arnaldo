@@ -250,18 +250,15 @@ html{
         font-size: 45px;
     }
 
-    /* .setinha{
+    .setinha{
         top:300px
-    } */
+    }
 } 
 @media screen and (max-width: 670px){
     .product-title{
         font-size: 35px;
     }
 
-    .setinha{
-       
-    }
    
 
 }
